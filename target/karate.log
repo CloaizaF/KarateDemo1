@@ -3023,3 +3023,486 @@ classpath:conduitApp/feature/HomePage.feature:28
 1 < Content-Length: 6252
 {"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
 
+17:54:00.636 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:54:00.887 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:54:01.460 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:54:01.464 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+17:54:01.679 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+17:54:02.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 881
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-xAczwtn5Q5fcgK28YkELCN9BCIE"
+1 < X-Cloud-Trace-Context: 0c8d6eb2973dd555e23de23a4c5677e0;o=1
+1 < Date: Wed, 26 Feb 2025 22:54:02 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDQ0MiwiZXhwIjoxNzQ1Nzk0NDQyfQ.tXtQ27lGZT4r0mTTRQMFhj5AtEHhHngxU5MJ4oxBFFQ"}}
+
+17:54:02.567 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+17:54:02.572 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDQ0MiwiZXhwIjoxNzQ1Nzk0NDQyfQ.tXtQ27lGZT4r0mTTRQMFhj5AtEHhHngxU5MJ4oxBFFQ
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:54:03.017 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"67-cNIcjyO+YmKhGh8UHD3txAODR5U"
+1 < X-Cloud-Trace-Context: a171d875bfd99f504ea1622316a75418
+1 < Date: Wed, 26 Feb 2025 22:54:03 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 103
+{"tags":["Test","GitHub","Coding","Git","Enroll","Bondar Academy","Zoom","qa career","YouTube","Exam"]}
+
+17:54:03.037 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:54:03.047 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDQ0MiwiZXhwIjoxNzQ1Nzk0NDQyfQ.tXtQ27lGZT4r0mTTRQMFhj5AtEHhHngxU5MJ4oxBFFQ
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:54:03.629 [main] DEBUG com.intuit.karate - response time in milliseconds: 582
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"186c-k8mEAuPN5JxviO2UctrLEwvUnBc"
+1 < X-Cloud-Trace-Context: 8999b88b534d640336e37752d7040f8b
+1 < Date: Wed, 26 Feb 2025 22:54:04 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 6252
+{"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
+
+17:54:03.650 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:34
+And match response.articles ==
+"""
+{
+    "slug": "#string",
+    "title": "#string",
+    "description": "#string",
+    "body": "#string",
+    "tagList": "#array",
+    "createdAt": "#? isValidTime(_)",
+    "updatedAt": "#? isValidTime(_)",
+    "favorited": "#boolean",
+    "favoritesCount": "#number",
+    "author": {
+        "username": "#string",
+        "bio": "##string",
+        "image": "#string",
+        "following": "#boolean"
+    }
+}
+"""
+match failed: EQUALS
+  $ | data types don't match (LIST:MAP)
+  [{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands \u2013 you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}]
+  {"slug":"#string","title":"#string","description":"#string","body":"#string","tagList":"#array","createdAt":"#? isValidTime(_)","updatedAt":"#? isValidTime(_)","favorited":"#boolean","favoritesCount":"#number","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"}}
+
+classpath:conduitApp/feature/HomePage.feature:34
+17:55:15.262 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:55:15.531 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:55:16.095 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:16.099 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+17:55:16.308 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+17:55:16.872 [main] DEBUG com.intuit.karate - response time in milliseconds: 563
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-M1v2r6VsjBv7fDk/y4i/YUIRMkU"
+1 < X-Cloud-Trace-Context: 4fe0f90939e836ea2765232bb71c53d4;o=1
+1 < Date: Wed, 26 Feb 2025 22:55:17 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDUxNywiZXhwIjoxNzQ1Nzk0NTE3fQ.H4rBSXEmUPAgWajuJZWoG58kxbc0xZoK-HPV0Q0_CGU"}}
+
+17:55:16.879 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+17:55:16.885 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDUxNywiZXhwIjoxNzQ1Nzk0NTE3fQ.H4rBSXEmUPAgWajuJZWoG58kxbc0xZoK-HPV0Q0_CGU
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:17.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 774
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"67-cNIcjyO+YmKhGh8UHD3txAODR5U"
+1 < X-Cloud-Trace-Context: 03ab15a53c66ab9e46adf87113cc2e97
+1 < Date: Wed, 26 Feb 2025 22:55:18 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 103
+{"tags":["Test","GitHub","Coding","Git","Enroll","Bondar Academy","Zoom","qa career","YouTube","Exam"]}
+
+17:55:17.681 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:17.692 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDUxNywiZXhwIjoxNzQ1Nzk0NTE3fQ.H4rBSXEmUPAgWajuJZWoG58kxbc0xZoK-HPV0Q0_CGU
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:18.312 [main] DEBUG com.intuit.karate - response time in milliseconds: 618
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"186c-k8mEAuPN5JxviO2UctrLEwvUnBc"
+1 < X-Cloud-Trace-Context: c289463aa420a93cb1e8a3e357bb1980
+1 < Date: Wed, 26 Feb 2025 22:55:18 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 6252
+{"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
+
+17:55:40.048 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:55:40.300 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:55:40.899 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:40.904 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+17:55:41.124 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+17:55:41.624 [main] DEBUG com.intuit.karate - response time in milliseconds: 498
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-Lv4yWyDjJB+ukngdFVPXG/BbS2s"
+1 < X-Cloud-Trace-Context: ad697263a22d94f8aea034be6bde873f;o=1
+1 < Date: Wed, 26 Feb 2025 22:55:42 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDU0MiwiZXhwIjoxNzQ1Nzk0NTQyfQ.VZNnTsmBqKI9RWv16OpxqugTkLP2CcPVpihnaiE7yv8"}}
+
+17:55:41.631 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+17:55:41.636 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDU0MiwiZXhwIjoxNzQ1Nzk0NTQyfQ.VZNnTsmBqKI9RWv16OpxqugTkLP2CcPVpihnaiE7yv8
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:42.349 [main] DEBUG com.intuit.karate - response time in milliseconds: 712
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"67-cNIcjyO+YmKhGh8UHD3txAODR5U"
+1 < X-Cloud-Trace-Context: d45cb26d5da7061bba9873e4654d84fa
+1 < Date: Wed, 26 Feb 2025 22:55:42 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 103
+{"tags":["Test","GitHub","Coding","Git","Enroll","Bondar Academy","Zoom","qa career","YouTube","Exam"]}
+
+17:55:42.369 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:42.381 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDU0MiwiZXhwIjoxNzQ1Nzk0NTQyfQ.VZNnTsmBqKI9RWv16OpxqugTkLP2CcPVpihnaiE7yv8
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:43.004 [main] DEBUG com.intuit.karate - response time in milliseconds: 622
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"186c-k8mEAuPN5JxviO2UctrLEwvUnBc"
+1 < X-Cloud-Trace-Context: bb087470ec83ceb8519446d0af326c63
+1 < Date: Wed, 26 Feb 2025 22:55:43 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 6252
+{"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
+
+17:55:43.034 [main] INFO  com.intuit.karate - *** invalid date string: 2025-02-25T22:13:33.556Z 
+17:55:43.037 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/HomePage.feature:34
+And match each response.articles ==
+"""
+{
+    "slug": "#string",
+    "title": "#string",
+    "description": "#string",
+    "body": "#string",
+    "tagList": "#array",
+    "createdAt": "#? isValidTime(_)",
+    "updatedAt": "#? isValidTime(_)",
+    "favorited": "#boolean",
+    "favoritesCount": "#number",
+    "author": {
+        "username": "#string",
+        "bio": "##string",
+        "image": "#string",
+        "following": "#boolean"
+    }
+}
+"""
+match failed: EACH_EQUALS
+  $ | match each failed at index 0 (LIST:MAP)
+  [{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands \u2013 you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}]
+  {"slug":"#string","title":"#string","description":"#string","body":"#string","tagList":"#array","createdAt":"#? isValidTime(_)","updatedAt":"#? isValidTime(_)","favorited":"#boolean","favoritesCount":"#number","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"}}
+
+    $[0] | not equal | match failed for name: 'createdAt' (MAP:MAP)
+    {"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}
+    {"slug":"#string","title":"#string","description":"#string","body":"#string","tagList":"#array","createdAt":"#? isValidTime(_)","updatedAt":"#? isValidTime(_)","favorited":"#boolean","favoritesCount":"#number","author":{"username":"#string","bio":"##string","image":"#string","following":"#boolean"}}
+
+      $[0].createdAt | evaluated to 'false' (STRING:STRING)
+      '2025-02-25T22:13:33.556Z'
+      '#? isValidTime(_)'
+
+classpath:conduitApp/feature/HomePage.feature:34
+17:55:56.626 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:55:56.874 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:55:57.461 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:57.465 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+17:55:57.682 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+17:55:58.391 [main] DEBUG com.intuit.karate - response time in milliseconds: 708
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-kbkjNmRF4+IrxZYkvapE5NtBBC8"
+1 < X-Cloud-Trace-Context: f0ceb81ac9f37b98ec7e391171288447
+1 < Date: Wed, 26 Feb 2025 22:55:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDU1OCwiZXhwIjoxNzQ1Nzk0NTU4fQ.umv1Hv4F3HeVzelfzw7skPJYkc11AOC3t3cEwZQYi1s"}}
+
+17:55:58.398 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+17:55:58.403 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDU1OCwiZXhwIjoxNzQ1Nzk0NTU4fQ.umv1Hv4F3HeVzelfzw7skPJYkc11AOC3t3cEwZQYi1s
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:59.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 614
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"67-cNIcjyO+YmKhGh8UHD3txAODR5U"
+1 < X-Cloud-Trace-Context: 9769045410c5c9d79628c39f1661f11a
+1 < Date: Wed, 26 Feb 2025 22:55:59 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 103
+{"tags":["Test","GitHub","Coding","Git","Enroll","Bondar Academy","Zoom","qa career","YouTube","Exam"]}
+
+17:55:59.038 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:55:59.050 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDU1OCwiZXhwIjoxNzQ1Nzk0NTU4fQ.umv1Hv4F3HeVzelfzw7skPJYkc11AOC3t3cEwZQYi1s
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:55:59.736 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"186c-k8mEAuPN5JxviO2UctrLEwvUnBc"
+1 < X-Cloud-Trace-Context: 106c4e096171191dc7ee3ff5cc925e1e
+1 < Date: Wed, 26 Feb 2025 22:56:00 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 6252
+{"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
+
+17:56:49.521 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:56:49.764 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:56:50.333 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:56:50.338 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+17:56:50.560 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+17:56:51.399 [main] DEBUG com.intuit.karate - response time in milliseconds: 836
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-267THF1of7IDlg9aQ0Kl6mo1TQ0"
+1 < X-Cloud-Trace-Context: c429837db78c95b6798e04bc09ee67fe;o=1
+1 < Date: Wed, 26 Feb 2025 22:56:51 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDYxMSwiZXhwIjoxNzQ1Nzk0NjExfQ.Yh441ztNjZ-wR52T0zQkvDx83OoYLFMYyVdFusaDccg"}}
+
+17:56:51.405 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+17:56:51.411 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDYxMSwiZXhwIjoxNzQ1Nzk0NjExfQ.Yh441ztNjZ-wR52T0zQkvDx83OoYLFMYyVdFusaDccg
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:56:51.864 [main] DEBUG com.intuit.karate - response time in milliseconds: 452
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"67-cNIcjyO+YmKhGh8UHD3txAODR5U"
+1 < X-Cloud-Trace-Context: 5d02a6c9d1d86c3918f12fed7b267fc3
+1 < Date: Wed, 26 Feb 2025 22:56:52 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 103
+{"tags":["Test","GitHub","Coding","Git","Enroll","Bondar Academy","Zoom","qa career","YouTube","Exam"]}
+
+17:56:51.883 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:56:51.895 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDYxMSwiZXhwIjoxNzQ1Nzk0NjExfQ.Yh441ztNjZ-wR52T0zQkvDx83OoYLFMYyVdFusaDccg
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:56:52.479 [main] DEBUG com.intuit.karate - response time in milliseconds: 584
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"186c-k8mEAuPN5JxviO2UctrLEwvUnBc"
+1 < X-Cloud-Trace-Context: 73ea80211fb692a08864ff2de6aa124c
+1 < Date: Wed, 26 Feb 2025 22:56:52 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 6252
+{"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
+
+17:57:28.656 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+17:57:28.893 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:57:29.443 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:57:29.448 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+17:57:29.649 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+17:57:30.201 [main] DEBUG com.intuit.karate - response time in milliseconds: 550
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-RzMKWNdDRczbLcQfGJxSk8kTHMI"
+1 < X-Cloud-Trace-Context: a708fd2203c3c2862bac3953cd1ef33a;o=1
+1 < Date: Wed, 26 Feb 2025 22:57:30 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDY1MCwiZXhwIjoxNzQ1Nzk0NjUwfQ.od_rxcgkI8mWHrEqz7dKU-wm-eCjLy2OYDNRBscAdDs"}}
+
+17:57:30.207 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+17:57:30.213 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDY1MCwiZXhwIjoxNzQ1Nzk0NjUwfQ.od_rxcgkI8mWHrEqz7dKU-wm-eCjLy2OYDNRBscAdDs
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:57:30.666 [main] DEBUG com.intuit.karate - response time in milliseconds: 453
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"67-cNIcjyO+YmKhGh8UHD3txAODR5U"
+1 < X-Cloud-Trace-Context: 686420305ce33fdc115eca6408f9dcd7
+1 < Date: Wed, 26 Feb 2025 22:57:31 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 103
+{"tags":["Test","GitHub","Coding","Git","Enroll","Bondar Academy","Zoom","qa career","YouTube","Exam"]}
+
+17:57:30.685 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:57:30.698 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDYxMDY1MCwiZXhwIjoxNzQ1Nzk0NjUwfQ.od_rxcgkI8mWHrEqz7dKU-wm-eCjLy2OYDNRBscAdDs
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:57:31.259 [main] DEBUG com.intuit.karate - response time in milliseconds: 561
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"186c-k8mEAuPN5JxviO2UctrLEwvUnBc"
+1 < X-Cloud-Trace-Context: 2b228a6118a9f437285a4a161933de4f
+1 < Date: Wed, 26 Feb 2025 22:57:31 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 6252
+{"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
+
