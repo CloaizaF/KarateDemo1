@@ -1,3 +1,4 @@
+@debug
 Feature: Tests for the home page
 
     Background: Define URL
@@ -9,6 +10,7 @@ Feature: Tests for the home page
         Then status 200
         And match response.tags contains ['GitHub', 'Exam']
         And match response.tags !contains 'truck'
+        And match response.tags contains any ['Coding', 'Git', 'Zoom']
         And match response.tags == "#array"
         And match each response.tags == "#string"
 
@@ -18,4 +20,10 @@ Feature: Tests for the home page
         When method Get
         Then status 200
         And match response.articles == '#[10]'
-        And match response.articlesCount == 10
+        And match response.articlesCount == 18
+        And match response.articlesCount != 500
+        And match response == {"articles": "#array", "articlesCount": 18}
+        And match response.articles[0].createdAt contains '2025'
+        And match response.articles[*].favoritesCount contains 0
+        And match response..bio contains null
+        And match each response..following == false
