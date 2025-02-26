@@ -22,8 +22,11 @@ Feature: Tests for the home page
         And match response.articles == '#[10]'
         And match response.articlesCount == 18
         And match response.articlesCount != 500
-        And match response == {"articles": "#array", "articlesCount": 18}
+        And match response == {"articles": "#array", "articlesCount": "#number"}
         And match response.articles[0].createdAt contains '2025'
         And match response.articles[*].favoritesCount contains 0
         And match response..bio contains null
         And match each response..following == false
+        And match each response..following == "#boolean"
+        And match each response..favoritesCount == "#number"
+        And match each response..bio == "##string"
