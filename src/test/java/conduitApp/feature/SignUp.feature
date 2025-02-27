@@ -1,22 +1,37 @@
-@ignore 
+@debug
 Feature: Sign Up New User
 
     Background: Preconditions
+        * def dataGenerator = Java.type('helpers.DataGenerator')
         Given url apiUrl
 
     Scenario: New User Sign Up
-        Given def userData = {"email":"kikiki@test.com","username":"kikiki"}
+        * def randomEmail = dataGenerator.getRandomEmail()
+        * def randomUsername = dataGenerator.getRandomUsername()
         
         Given path 'users'
         And request 
         """
             {
             "user": {
-                "email": #('Test' + userData.email),
+                "email": #(randomEmail),
                 "password": "1234566",
-                "username": #('Test' + userData.username)
+                "username": #(randomUsername)
                 }
             }
         """
         When method Post
         Then status 201
+        And match response ==
+        """
+            {
+                "user": {
+                    "id": "#number",
+                    "email": #(randomEmail),
+                    "username": #(randomUsername),
+                    "bio": "##string",
+                    "image": "##string",
+                    "token": "#string"
+                }
+            }
+        """

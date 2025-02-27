@@ -3506,3 +3506,190 @@ classpath:conduitApp/feature/HomePage.feature:34
 1 < Content-Length: 6252
 {"articles":[{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"some-title-21337","title":"some title","description":"some ","body":"something","tagList":["Some"],"createdAt":"2025-02-25T16:17:38.217Z","updatedAt":"2025-02-25T16:17:38.217Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":547,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":206,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":18}
 
+15:37:57.155 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:37:57.436 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:58.121 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:58.130 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:37:58.399 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+15:37:59.253 [main] DEBUG com.intuit.karate - response time in milliseconds: 852
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-kJblNVPTZU3mN3SmvYsGkRiA7QY"
+1 < X-Cloud-Trace-Context: 0a62062ddb557fb94b9384dfc84c9d79
+1 < Date: Thu, 27 Feb 2025 20:37:59 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODY3OSwiZXhwIjoxNzQ1ODcyNjc5fQ.3xDDzKJk8r-HOPNQO40PRmapWx2cstahKVswZy2K1w0"}}
+
+15:37:59.260 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:37:59.397 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:10
+* def randomUsername = dataGenerator.getRandomUsername()
+js failed:
+>>>>
+01: dataGenerator.getRandomUsername()
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (getRandomUsername) on helpers.DataGenerator failed due to: Unknown identifier: getRandomUsername
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/SignUp.feature:10
+15:38:33.169 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:38:33.399 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:38:34.010 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:34.015 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:38:34.237 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+15:38:35.053 [main] DEBUG com.intuit.karate - response time in milliseconds: 815
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-DuBUC7wNmWSpbPuafVj/srgYqQk"
+1 < X-Cloud-Trace-Context: c435363eb788603343f3a5b972c853ff;o=1
+1 < Date: Thu, 27 Feb 2025 20:38:34 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODcxNCwiZXhwIjoxNzQ1ODcyNzE0fQ.ORt-E12TPq2zU7zVuVLIuqP9SO_uTL-CG9eKSRBRx_A"}}
+
+15:38:35.062 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:38:35.197 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODcxNCwiZXhwIjoxNzQ1ODcyNzE0fQ.ORt-E12TPq2zU7zVuVLIuqP9SO_uTL-CG9eKSRBRx_A
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"mohamed87@test.com","password":"1234566","username":"mason.ratke"}}
+
+15:38:35.760 [main] DEBUG com.intuit.karate - response time in milliseconds: 563
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"145-4Y7/5rMH1BC6Sw0MZ7D5Z5E/CHU"
+1 < X-Cloud-Trace-Context: f3c4baedcd3da9e5ad2785d0e4a536ce
+1 < Date: Thu, 27 Feb 2025 20:38:35 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 325
+{"user":{"id":21573,"email":"mohamed87@test.com","username":"mason.ratke","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTU3M30sImlhdCI6MTc0MDY4ODcxNSwiZXhwIjoxNzQ1ODcyNzE1fQ.oY8UUZCytQL8aYLH0340aQaYXHQG_pcipn1SIbl9imE"}}
+
+15:38:51.316 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:38:51.543 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:38:52.145 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:38:52.149 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:38:52.372 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+15:38:52.930 [main] DEBUG com.intuit.karate - response time in milliseconds: 557
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-4fK9k6uVh5MaRXpSTIkuI7x9Esg"
+1 < X-Cloud-Trace-Context: b82f4db4e5d579bdbcf232b3fce5975b;o=1
+1 < Date: Thu, 27 Feb 2025 20:38:52 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODczMiwiZXhwIjoxNzQ1ODcyNzMyfQ.6xPjwBWB1P0qNrM54XJG6rfYINtSiJ5E6i2Coh9hvDw"}}
+
+15:38:52.933 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:38:53.123 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODczMiwiZXhwIjoxNzQ1ODcyNzMyfQ.6xPjwBWB1P0qNrM54XJG6rfYINtSiJ5E6i2Coh9hvDw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"fabian96@test.com","password":"1234566","username":"serafina.schimmel"}}
+
+15:38:53.708 [main] DEBUG com.intuit.karate - response time in milliseconds: 585
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"14a-iCXgGgzagKQsp4FMttQzv4fJeZI"
+1 < X-Cloud-Trace-Context: 9d63b9abee20036fe5391f4a5504ec5f
+1 < Date: Thu, 27 Feb 2025 20:38:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 330
+{"user":{"id":21574,"email":"fabian96@test.com","username":"serafina.schimmel","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTU3NH0sImlhdCI6MTc0MDY4ODczMywiZXhwIjoxNzQ1ODcyNzMzfQ.lu9UL9nPbYKqj4KOOh_ANfTEPqaq_TVyX1MtrmZfuJM"}}
+
+15:42:39.894 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:42:40.142 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:42:40.763 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:42:40.764 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:42:40.976 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+15:42:41.913 [main] DEBUG com.intuit.karate - response time in milliseconds: 937
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-rq2nj99EXqyazloQaL1wT5AzWjY"
+1 < X-Cloud-Trace-Context: 0009c715210ae92bc58915248e8daabe
+1 < Date: Thu, 27 Feb 2025 20:42:41 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODk2MSwiZXhwIjoxNzQ1ODcyOTYxfQ.QflGIv_4Hep16T41j6crhPG24pHhsZndBSUxCqTJWpM"}}
+
+15:42:41.929 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:42:42.073 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4ODk2MSwiZXhwIjoxNzQ1ODcyOTYxfQ.QflGIv_4Hep16T41j6crhPG24pHhsZndBSUxCqTJWpM
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"eugenio34@test.com","password":"1234566","username":"rosanna.wintheiser"}}
+
+15:42:42.698 [main] DEBUG com.intuit.karate - response time in milliseconds: 625
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"14c-UvVt3X/RelEy97JxTc/r19HYCUY"
+1 < X-Cloud-Trace-Context: 2d9b0abf57efee0c3b0d810f08a330f5
+1 < Date: Thu, 27 Feb 2025 20:42:42 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 332
+{"user":{"id":21578,"email":"eugenio34@test.com","username":"rosanna.wintheiser","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTU3OH0sImlhdCI6MTc0MDY4ODk2MiwiZXhwIjoxNzQ1ODcyOTYyfQ.i8Ft8pAJ8-cBOqXJuufcTxHa6tVQq1ZJD2bs6I2cn6c"}}
+
