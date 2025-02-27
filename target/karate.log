@@ -3693,3 +3693,84 @@ classpath:conduitApp/feature/SignUp.feature:10
 1 < Content-Length: 332
 {"user":{"id":21578,"email":"eugenio34@test.com","username":"rosanna.wintheiser","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTU3OH0sImlhdCI6MTc0MDY4ODk2MiwiZXhwIjoxNzQ1ODcyOTYyfQ.i8Ft8pAJ8-cBOqXJuufcTxHa6tVQq1ZJD2bs6I2cn6c"}}
 
+15:47:06.730 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:47:06.969 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:47:07.595 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:07.601 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:47:07.815 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+15:47:08.583 [main] DEBUG com.intuit.karate - response time in milliseconds: 766
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-89pzTTnsHtZquHTlBYTsMV+AGLA"
+1 < X-Cloud-Trace-Context: 7564745212c9bb8a4a9ee3d135a59bd9;o=1
+1 < Date: Thu, 27 Feb 2025 20:47:08 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4OTIyOCwiZXhwIjoxNzQ1ODczMjI4fQ.fcm56qUSOVQ6xN7rj1kKH7S7NQipGJbvtPG45KxyPnE"}}
+
+15:47:08.591 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:47:08.746 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:20
+* def randomUsername2 = call jsFunction
+ReferenceError: "DataGenerator" is not defined
+classpath:conduitApp/feature/SignUp.feature:20
+15:47:35.387 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+15:47:35.608 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:47:36.203 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:36.207 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+15:47:36.444 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+15:47:37.247 [main] DEBUG com.intuit.karate - response time in milliseconds: 788
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-BxruYmxcIm4A8r/RrxOjY91y57Q"
+1 < X-Cloud-Trace-Context: 37e85490ee277d1e0ef91da0ef2d423c;o=1
+1 < Date: Thu, 27 Feb 2025 20:47:37 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4OTI1NywiZXhwIjoxNzQ1ODczMjU3fQ.Ch_XVRCAlu-Oda8FxHLfTWoPfjrLu63vCghVniFC-Jk"}}
+
+15:47:37.253 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+15:47:37.418 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDY4OTI1NywiZXhwIjoxNzQ1ODczMjU3fQ.Ch_XVRCAlu-Oda8FxHLfTWoPfjrLu63vCghVniFC-Jk
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"emile38@test.com","password":"1234566","username":"billy.nicolas"}}
+
+15:47:37.987 [main] DEBUG com.intuit.karate - response time in milliseconds: 562
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"145-qnFkc1RkuSRfCkdUfeFos1376LI"
+1 < X-Cloud-Trace-Context: 9d7a30b36d51afde43b2df1c868f828d
+1 < Date: Thu, 27 Feb 2025 20:47:37 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 325
+{"user":{"id":21580,"email":"emile38@test.com","username":"billy.nicolas","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTU4MH0sImlhdCI6MTc0MDY4OTI1NywiZXhwIjoxNzQ1ODczMjU3fQ.YFhgha6YBpR-zEZw2JET3Y52-1ndnS69BjLXHkBEue0"}}
+

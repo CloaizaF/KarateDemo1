@@ -8,6 +8,16 @@ Feature: Sign Up New User
     Scenario: New User Sign Up
         * def randomEmail = dataGenerator.getRandomEmail()
         * def randomUsername = dataGenerator.getRandomUsername()
+
+        * def jsFunction = 
+        """
+            function () {
+                var DataGenerator = Java.type('helpers.DataGenerator')
+                var generator = new DataGenerator()
+                return generator.getRandomUsername2()
+            }
+        """
+        * def randomUsername2 = call jsFunction
         
         Given path 'users'
         And request 
@@ -16,7 +26,7 @@ Feature: Sign Up New User
             "user": {
                 "email": #(randomEmail),
                 "password": "1234566",
-                "username": #(randomUsername)
+                "username": #(randomUsername2)
                 }
             }
         """
@@ -28,7 +38,7 @@ Feature: Sign Up New User
                 "user": {
                     "id": "#number",
                     "email": #(randomEmail),
-                    "username": #(randomUsername),
+                    "username": #(randomUsername2),
                     "bio": "##string",
                     "image": "##string",
                     "token": "#string"
