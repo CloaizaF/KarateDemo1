@@ -1,14 +1,13 @@
-@debug
+
 Feature: Sign Up New User
 
     Background: Preconditions
         * def dataGenerator = Java.type('helpers.DataGenerator')
-        Given url apiUrl
-
-    Scenario: New User Sign Up
         * def randomEmail = dataGenerator.getRandomEmail()
         * def randomUsername = dataGenerator.getRandomUsername()
+        * url apiUrl
 
+    Scenario: New User Sign Up
         * def jsFunction = 
         """
             function () {
@@ -45,3 +44,27 @@ Feature: Sign Up New User
                 }
             }
         """
+    
+    Scenario Outline: Validate Sign Up Error Message
+        Given path 'users'
+        And request 
+        """
+            {
+            "user": {
+                "email": "<email>",
+                "password": "<password>",
+                "username": "<username>"
+                }
+            }
+        """
+        When method Post
+        Then status 422
+        And match response == <errorResponse>
+
+        Examples:
+            | email            | password  | username          | errorResponse                                      |
+            | #(randomEmail)   | Karate123 | cloaiza11         | {"errors":{"username":["has already been taken"]}} |
+            | cloaiza@test.com | Karate123 | #(randomUsername) | {"errors":{"email":["has already been taken"]}}    |
+            |                  | Karate123 | #(randomUsername) | {"errors":{"email":["can't be blank"]}}            |
+            | cloaiza11        |           | #(randomUsername) | {"errors":{"password":["can't be blank"]}}         |
+            | cloaiza11        | Karate123 |                   | {"errors":{"username":["can't be blank"]}}         |

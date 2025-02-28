@@ -3774,3 +3774,1333 @@ classpath:conduitApp/feature/SignUp.feature:20
 1 < Content-Length: 325
 {"user":{"id":21580,"email":"emile38@test.com","username":"billy.nicolas","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTU4MH0sImlhdCI6MTc0MDY4OTI1NywiZXhwIjoxNzQ1ODczMjU3fQ.YFhgha6YBpR-zEZw2JET3Y52-1ndnS69BjLXHkBEue0"}}
 
+08:16:10.897 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:16:11.134 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:16:11.751 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:16:11.756 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:16:11.983 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:16:12.695 [main] DEBUG com.intuit.karate - response time in milliseconds: 709
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-slG7PxxFh3EosysKZpx7BLGkfjU"
+1 < X-Cloud-Trace-Context: 97df12685ca23cc24a2c5fde7ae7face
+1 < Date: Fri, 28 Feb 2025 13:16:12 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0ODU3MiwiZXhwIjoxNzQ1OTMyNTcyfQ.s404UdYGf4R-qDX0BFIXYUhNKbb6coITxSM2uihSpBE"}}
+
+08:16:12.700 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:16:12.828 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0ODU3MiwiZXhwIjoxNzQ1OTMyNTcyfQ.s404UdYGf4R-qDX0BFIXYUhNKbb6coITxSM2uihSpBE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1","username":"beatrice.weimann"}}
+
+08:16:13.296 [main] DEBUG com.intuit.karate - response time in milliseconds: 467
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 80882d60ec62bc950bb726a95f8203f5
+1 < Date: Fri, 28 Feb 2025 13:16:13 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:22:51.544 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:22:51.785 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:22:52.395 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:22:52.400 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:22:52.638 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:22:53.873 [main] DEBUG com.intuit.karate - response time in milliseconds: 1235
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-tzkCfbXdB2zbgYwg+9Gh7ZAQRPI"
+1 < X-Cloud-Trace-Context: 8ce1c63e3514fe9b98db0bdfa2876e8e;o=1
+1 < Date: Fri, 28 Feb 2025 13:22:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0ODk3MywiZXhwIjoxNzQ1OTMyOTczfQ.rdcV_0DWNkMDcmio_ZH90Kd-78eR3V80xXVBDzRRK7g"}}
+
+08:22:53.889 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:22:54.017 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0ODk3MywiZXhwIjoxNzQ1OTMyOTczfQ.rdcV_0DWNkMDcmio_ZH90Kd-78eR3V80xXVBDzRRK7g
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"erick25@test.com","password":"Karate123","username":"cloaiza11"}}
+
+08:22:54.496 [main] DEBUG com.intuit.karate - response time in milliseconds: 479
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 8096465ef0fc14d4b479f306a5261db0
+1 < Date: Fri, 28 Feb 2025 13:22:54 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+08:22:54.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:22:54.537 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0ODk3MywiZXhwIjoxNzQ1OTMyOTczfQ.rdcV_0DWNkMDcmio_ZH90Kd-78eR3V80xXVBDzRRK7g
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"Karate123","username":"shenna.murphy"}}
+
+08:22:54.965 [main] DEBUG com.intuit.karate - response time in milliseconds: 428
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: cc96745cecab8286ac0bb571b507cd31
+1 < Date: Fri, 28 Feb 2025 13:22:54 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:24:36.623 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:24:36.858 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:24:37.436 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:24:37.448 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:24:37.659 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:24:38.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 1035
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-wMPWnQv0+z9iTNh2bbwFgKK+9rY"
+1 < X-Cloud-Trace-Context: e0b4d49deb89b23aa41a0820a5f53312;o=1
+1 < Date: Fri, 28 Feb 2025 13:24:38 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTA3OCwiZXhwIjoxNzQ1OTMzMDc4fQ.rkR4zqDR3Lq-vwA9aNOqNSoe3FnpBHfultm6zcFc8dc"}}
+
+08:24:38.709 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:24:38.844 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTA3OCwiZXhwIjoxNzQ1OTMzMDc4fQ.rkR4zqDR3Lq-vwA9aNOqNSoe3FnpBHfultm6zcFc8dc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"leroy64@test.com","password":"Karate123","username":"cloaiza11"}}
+
+08:24:39.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 313
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: d8e7af75b5d172928d452a24a965db3e
+1 < Date: Fri, 28 Feb 2025 13:24:39 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+08:24:39.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:24:39.197 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTA3OCwiZXhwIjoxNzQ1OTMzMDc4fQ.rkR4zqDR3Lq-vwA9aNOqNSoe3FnpBHfultm6zcFc8dc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"Karate123","username":"art.kassulke"}}
+
+08:24:39.673 [main] DEBUG com.intuit.karate - response time in milliseconds: 476
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: c1bc0eda03743281b3a76f8e5cf5bb0a
+1 < Date: Fri, 28 Feb 2025 13:24:39 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:24:39.680 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:67
+And match response == {"errors":{"email":["ha already been taken"]}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'errors' (MAP:MAP)
+  {"errors":{"email":["has already been taken"]}}
+  {"errors":{"email":["ha already been taken"]}}
+
+    $.errors | not equal | match failed for name: 'email' (MAP:MAP)
+    {"email":["has already been taken"]}
+    {"email":["ha already been taken"]}
+
+      $.errors.email | not equal | array match failed at index 0 (LIST:LIST)
+      ["has already been taken"]
+      ["ha already been taken"]
+
+        $.errors.email[0] | not equal (STRING:STRING)
+        'has already been taken'
+        'ha already been taken'
+
+classpath:conduitApp/feature/SignUp.feature:67
+08:24:51.859 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:24:52.079 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:24:52.669 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:24:52.679 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:24:52.907 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:24:53.582 [main] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-a7fE/992QmXWHROBnv4Hv7Yjn/E"
+1 < X-Cloud-Trace-Context: 76c07eea2056d6cb622d88dfec3afb63;o=1
+1 < Date: Fri, 28 Feb 2025 13:24:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTA5MywiZXhwIjoxNzQ1OTMzMDkzfQ.adSsdspWratZE0JipCp4lq0tnq9OFP7Qw0zJqsOEGkc"}}
+
+08:24:53.582 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:24:53.718 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTA5MywiZXhwIjoxNzQ1OTMzMDkzfQ.adSsdspWratZE0JipCp4lq0tnq9OFP7Qw0zJqsOEGkc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"lorina0@test.com","password":"Karate123","username":"cloaiza11"}}
+
+08:24:54.450 [main] DEBUG com.intuit.karate - response time in milliseconds: 732
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: c41547bb4a6775bcb11fddd22063da04
+1 < Date: Fri, 28 Feb 2025 13:24:54 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+08:24:54.477 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:24:54.503 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTA5MywiZXhwIjoxNzQ1OTMzMDkzfQ.adSsdspWratZE0JipCp4lq0tnq9OFP7Qw0zJqsOEGkc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"Karate123","username":"zenobia.parisian"}}
+
+08:24:54.800 [main] DEBUG com.intuit.karate - response time in milliseconds: 297
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 075c78dfb2d77bf3263e35c0e82fe1aa
+1 < Date: Fri, 28 Feb 2025 13:24:54 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:31:54.408 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:31:54.646 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:31:55.258 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:31:55.263 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:31:55.483 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:31:56.187 [main] DEBUG com.intuit.karate - response time in milliseconds: 702
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-LempyyavXZwsxvrop/7bTcTpaWI"
+1 < X-Cloud-Trace-Context: 411bcf41c85d560a01e598d0e15073b1;o=1
+1 < Date: Fri, 28 Feb 2025 13:31:56 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE"}}
+
+08:31:56.193 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:31:56.322 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"wallace65@test.com","password":"Karate123","username":"cloaiza11"}}
+
+08:31:56.758 [main] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 41c4859b97195ca57810e8c6c54693e5
+1 < Date: Fri, 28 Feb 2025 13:31:56 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+08:31:56.776 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:31:56.802 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"Karate123","username":"karina.pagac"}}
+
+08:31:57.278 [main] DEBUG com.intuit.karate - response time in milliseconds: 476
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: c26a78efff7c653a42fde1a63e3bbfa5
+1 < Date: Fri, 28 Feb 2025 13:31:57 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:31:57.285 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:31:57.301 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 78
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":"hulda.hilll"}}
+
+08:31:57.931 [main] DEBUG com.intuit.karate - response time in milliseconds: 629
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"13c-B9uWUiXgkUkB3ACCKuV9K2ah8Rg"
+1 < X-Cloud-Trace-Context: 1394b2cfd0021540392b5f6cceb45f3c
+1 < Date: Fri, 28 Feb 2025 13:31:57 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 316
+{"user":{"id":21654,"email":"cloaiza11","username":"hulda.hilll","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTY1NH0sImlhdCI6MTc0MDc0OTUxNywiZXhwIjoxNzQ1OTMzNTE3fQ.JXm0-vcy5rVc-tf6Wte-VURRBCMy8WyLw5BbtmKeHhA"}}
+
+08:31:57.937 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:66
+Then status 422
+status code was: 201, expected: 422, response time in milliseconds: 629, url: https://conduit-api.bondaracademy.com/api/users, response: 
+{"user":{"id":21654,"email":"cloaiza11","username":"hulda.hilll","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTY1NH0sImlhdCI6MTc0MDc0OTUxNywiZXhwIjoxNzQ1OTMzNTE3fQ.JXm0-vcy5rVc-tf6Wte-VURRBCMy8WyLw5BbtmKeHhA"}}
+classpath:conduitApp/feature/SignUp.feature:66
+08:31:57.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:31:57.967 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 71
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"Karate123","username":"tyron.schmidt"}}
+
+08:31:58.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 469
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 0152d5d6a1408ae55ee34fe1d6654a5f
+1 < Date: Fri, 28 Feb 2025 13:31:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+08:31:58.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:31:58.455 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 71
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"","username":"werner.howell"}}
+
+08:31:58.961 [main] DEBUG com.intuit.karate - response time in milliseconds: 506
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
+1 < X-Cloud-Trace-Context: 87942765bfc21aeee5df9255184a0202
+1 < Date: Fri, 28 Feb 2025 13:31:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"password":["can't be blank"]}}
+
+08:31:58.967 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:31:58.985 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTUxNiwiZXhwIjoxNzQ1OTMzNTE2fQ.dUGaAs19VtnTb2pJM9p9CSAAeiTGVdggq_r7SyFQeIE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 67
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":""}}
+
+08:31:59.549 [main] DEBUG com.intuit.karate - response time in milliseconds: 563
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < X-Cloud-Trace-Context: 4af3f71dba4fa6d982225cba95a2316c
+1 < Date: Fri, 28 Feb 2025 13:31:59 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"username":["can't be blank"]}}
+
+08:32:37.667 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:32:37.917 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:32:38.507 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:32:38.512 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:32:38.731 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:32:39.787 [main] DEBUG com.intuit.karate - response time in milliseconds: 1054
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-FUZSE1zTAhwxeAx6JWqpTmVzXbs"
+1 < X-Cloud-Trace-Context: a7338352b09e5b7d15320632bfbe072d
+1 < Date: Fri, 28 Feb 2025 13:32:39 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTU1OSwiZXhwIjoxNzQ1OTMzNTU5fQ.UBsSH-qmkjcofsFvD-5Lhmsj_7MK-oxvQlcGcLgymPQ"}}
+
+08:32:39.794 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:32:39.918 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTU1OSwiZXhwIjoxNzQ1OTMzNTU5fQ.UBsSH-qmkjcofsFvD-5Lhmsj_7MK-oxvQlcGcLgymPQ
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 67
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":""}}
+
+08:32:40.343 [main] DEBUG com.intuit.karate - response time in milliseconds: 425
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < X-Cloud-Trace-Context: d28feee54ab63293614332f34826baf0
+1 < Date: Fri, 28 Feb 2025 13:32:40 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"username":["can't be blank"]}}
+
+08:32:50.926 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:32:51.165 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:32:51.766 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:32:51.770 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:32:51.998 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:32:52.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 849
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-Ld6FAGkaojOFmiL2RwU8U7hEli8"
+1 < X-Cloud-Trace-Context: b7fe0be82eba8ef8b9052e3a10bba0f9;o=1
+1 < Date: Fri, 28 Feb 2025 13:32:52 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTU3MiwiZXhwIjoxNzQ1OTMzNTcyfQ.hRK7zFw6KtZziZjRJdhPNjk632bZK_Fz4qb4xnil12Q"}}
+
+08:32:52.857 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:32:52.989 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTU3MiwiZXhwIjoxNzQ1OTMzNTcyfQ.hRK7zFw6KtZziZjRJdhPNjk632bZK_Fz4qb4xnil12Q
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"","username":"taylor.white"}}
+
+08:32:53.539 [main] DEBUG com.intuit.karate - response time in milliseconds: 550
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
+1 < X-Cloud-Trace-Context: abd9f720cfd4f91aeaa6dd13a6bf00c3
+1 < Date: Fri, 28 Feb 2025 13:32:53 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"password":["can't be blank"]}}
+
+08:33:08.929 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:33:09.167 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:33:09.764 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:33:09.768 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:33:09.992 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:33:10.749 [main] DEBUG com.intuit.karate - response time in milliseconds: 755
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-DXXJ48zt5uuq2B2gdNFejpFJG90"
+1 < X-Cloud-Trace-Context: a7de6998c3e15faad8650ac45670a597;o=1
+1 < Date: Fri, 28 Feb 2025 13:33:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTU5MCwiZXhwIjoxNzQ1OTMzNTkwfQ.QgXpgsDDCMpG2LOo5q2dJOYw7aZJCW4c34trG-hdgY4"}}
+
+08:33:10.758 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:33:10.902 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTU5MCwiZXhwIjoxNzQ1OTMzNTkwfQ.QgXpgsDDCMpG2LOo5q2dJOYw7aZJCW4c34trG-hdgY4
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 72
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"Karate123","username":"renae.mckenzie"}}
+
+08:33:11.314 [main] DEBUG com.intuit.karate - response time in milliseconds: 411
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 37d46afc267c91eb96ec5baa5d9391b8
+1 < Date: Fri, 28 Feb 2025 13:33:11 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+08:34:24.605 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:34:24.846 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:34:25.449 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:34:25.453 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:34:25.677 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:34:26.435 [main] DEBUG com.intuit.karate - response time in milliseconds: 755
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-81mNx7SYl/umdWJUH8emh5fH5VI"
+1 < X-Cloud-Trace-Context: 167ddace2775b1e5b97fbf076e18c03e
+1 < Date: Fri, 28 Feb 2025 13:34:26 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTY2NiwiZXhwIjoxNzQ1OTMzNjY2fQ.M3osYyc3IrUwZGr_X2_AuX-p4wpBvZ4JmUf2cPv_Iqg"}}
+
+08:34:26.441 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:34:26.568 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTY2NiwiZXhwIjoxNzQ1OTMzNjY2fQ.M3osYyc3IrUwZGr_X2_AuX-p4wpBvZ4JmUf2cPv_Iqg
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":"craig.abernathy"}}
+
+08:34:26.895 [main] DEBUG com.intuit.karate - response time in milliseconds: 327
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 3bb59ef9e6e1f143c4916dae28cbad9d
+1 < Date: Fri, 28 Feb 2025 13:34:26 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:34:26.905 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:67
+And match response == {"errors":{"username":["is invalid"]}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'errors' (MAP:MAP)
+  {"errors":{"email":["has already been taken"]}}
+  {"errors":{"username":["is invalid"]}}
+
+    $.errors | not equal | actual does not contain key - 'username' (MAP:MAP)
+    {"email":["has already been taken"]}
+    {"username":["is invalid"]}
+
+
+classpath:conduitApp/feature/SignUp.feature:67
+08:34:33.048 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:34:33.277 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:34:33.865 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:34:33.869 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:34:34.083 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:34:34.822 [main] DEBUG com.intuit.karate - response time in milliseconds: 738
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-ROjIEJJXsfYS5KFyXQ25n5LjA4U"
+1 < X-Cloud-Trace-Context: d3a961bb4cc5a0a69dba54d097f4d6da;o=1
+1 < Date: Fri, 28 Feb 2025 13:34:34 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTY3NCwiZXhwIjoxNzQ1OTMzNjc0fQ.I6CEP7NiyfUxnYvtap0lZWzuvWBw6soo2zRBsZ4uYSE"}}
+
+08:34:34.830 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:34:34.955 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTY3NCwiZXhwIjoxNzQ1OTMzNjc0fQ.I6CEP7NiyfUxnYvtap0lZWzuvWBw6soo2zRBsZ4uYSE
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 79
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":"valrie.emard"}}
+
+08:34:35.352 [main] DEBUG com.intuit.karate - response time in milliseconds: 397
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: bd81c04067c8a442a26f213f15e21d87
+1 < Date: Fri, 28 Feb 2025 13:34:35 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:34:35.361 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:67
+And match response == {"errors":{"email":["is invalid"]}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'errors' (MAP:MAP)
+  {"errors":{"email":["has already been taken"]}}
+  {"errors":{"email":["is invalid"]}}
+
+    $.errors | not equal | match failed for name: 'email' (MAP:MAP)
+    {"email":["has already been taken"]}
+    {"email":["is invalid"]}
+
+      $.errors.email | not equal | array match failed at index 0 (LIST:LIST)
+      ["has already been taken"]
+      ["is invalid"]
+
+        $.errors.email[0] | not equal (STRING:STRING)
+        'has already been taken'
+        'is invalid'
+
+classpath:conduitApp/feature/SignUp.feature:67
+08:35:16.113 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:35:16.333 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:35:16.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:35:16.899 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:35:17.110 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:35:17.766 [main] DEBUG com.intuit.karate - response time in milliseconds: 654
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-FIU1jwdTW641iGBAmue+E/JxN7k"
+1 < X-Cloud-Trace-Context: 5ec8fb9669f131e828eccfe6c6fa7f69;o=1
+1 < Date: Fri, 28 Feb 2025 13:35:17 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTcxNywiZXhwIjoxNzQ1OTMzNzE3fQ.EBDcMazGK9LgTprSN06uTVu9CBG-uAkiAA09xkhwOWw"}}
+
+08:35:17.773 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:35:17.886 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTcxNywiZXhwIjoxNzQ1OTMzNzE3fQ.EBDcMazGK9LgTprSN06uTVu9CBG-uAkiAA09xkhwOWw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jamar5@test.com","password":"Karate123","username":"cloaiza11"}}
+
+08:35:18.360 [main] DEBUG com.intuit.karate - response time in milliseconds: 474
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: aa0f0366c98a1d1f41245856b5cb28d9
+1 < Date: Fri, 28 Feb 2025 13:35:18 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+08:35:18.375 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:35:18.397 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTcxNywiZXhwIjoxNzQ1OTMzNzE3fQ.EBDcMazGK9LgTprSN06uTVu9CBG-uAkiAA09xkhwOWw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"Karate123","username":"vincenza.barrows"}}
+
+08:35:18.836 [main] DEBUG com.intuit.karate - response time in milliseconds: 439
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 8a27acc1a804c094beca649c61d141cc
+1 < Date: Fri, 28 Feb 2025 13:35:18 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:35:18.841 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:35:18.869 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTcxNywiZXhwIjoxNzQ1OTMzNzE3fQ.EBDcMazGK9LgTprSN06uTVu9CBG-uAkiAA09xkhwOWw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 72
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"Karate123","username":"francine.hyatt"}}
+
+08:35:19.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 337
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 5fd9eba791be12a1cf7759996f1ca0f3
+1 < Date: Fri, 28 Feb 2025 13:35:19 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+08:35:19.214 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:35:19.228 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTcxNywiZXhwIjoxNzQ1OTMzNzE3fQ.EBDcMazGK9LgTprSN06uTVu9CBG-uAkiAA09xkhwOWw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 72
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"","username":"santos.ziemann"}}
+
+08:35:23.072 [main] DEBUG com.intuit.karate - response time in milliseconds: 3843
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
+1 < X-Cloud-Trace-Context: e78a149741e1a9fb1d259019df9bd076
+1 < Date: Fri, 28 Feb 2025 13:35:22 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"password":["can't be blank"]}}
+
+08:35:23.077 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:35:23.090 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTcxNywiZXhwIjoxNzQ1OTMzNzE3fQ.EBDcMazGK9LgTprSN06uTVu9CBG-uAkiAA09xkhwOWw
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 67
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":""}}
+
+08:35:23.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 682
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < X-Cloud-Trace-Context: 3eaf3a697996b475f3d7e1877a295cb1
+1 < Date: Fri, 28 Feb 2025 13:35:23 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"username":["can't be blank"]}}
+
+08:37:43.316 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+08:37:43.596 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:37:44.181 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:44.185 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+08:37:44.410 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+08:37:45.187 [main] DEBUG com.intuit.karate - response time in milliseconds: 775
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-VhDqHwUVk9jw3hXuyPhNgnuJYHY"
+1 < X-Cloud-Trace-Context: 2152d1494c65b215eb33260213022139;o=1
+1 < Date: Fri, 28 Feb 2025 13:37:45 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTg2NSwiZXhwIjoxNzQ1OTMzODY1fQ.47c77eUUUJ_ePSBrRUiziJoBjqqlU9ot6_XsRcAlnPs"}}
+
+08:37:45.194 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+08:37:45.325 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTg2NSwiZXhwIjoxNzQ1OTMzODY1fQ.47c77eUUUJ_ePSBrRUiziJoBjqqlU9ot6_XsRcAlnPs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 84
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"selena26@test.com","password":"Karate123","username":"cloaiza11"}}
+
+08:37:45.905 [main] DEBUG com.intuit.karate - response time in milliseconds: 580
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: e604c85cc0f2072d31a5270481b5e5b9
+1 < Date: Fri, 28 Feb 2025 13:37:45 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+08:37:45.920 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:45.942 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTg2NSwiZXhwIjoxNzQ1OTMzODY1fQ.47c77eUUUJ_ePSBrRUiziJoBjqqlU9ot6_XsRcAlnPs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"Karate123","username":"elroy.klein"}}
+
+08:37:46.329 [main] DEBUG com.intuit.karate - response time in milliseconds: 387
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 4ba72d6db637296ea27d8b9b62709cd7
+1 < Date: Fri, 28 Feb 2025 13:37:46 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+08:37:46.334 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:46.359 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTg2NSwiZXhwIjoxNzQ1OTMzODY1fQ.47c77eUUUJ_ePSBrRUiziJoBjqqlU9ot6_XsRcAlnPs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 71
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"Karate123","username":"juanita.mayer"}}
+
+08:37:48.175 [main] DEBUG com.intuit.karate - response time in milliseconds: 1816
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 2019c7fbe170f1e99fc4c5ab6d21f229
+1 < Date: Fri, 28 Feb 2025 13:37:48 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+08:37:48.181 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:48.196 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTg2NSwiZXhwIjoxNzQ1OTMzODY1fQ.47c77eUUUJ_ePSBrRUiziJoBjqqlU9ot6_XsRcAlnPs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 73
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"","username":"camie.buckridge"}}
+
+08:37:48.702 [main] DEBUG com.intuit.karate - response time in milliseconds: 506
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-qbpXJMY/Kgu11LsJcjS0p5wC5b0"
+1 < X-Cloud-Trace-Context: 22205550eb415648d06b2ae99971eba0
+1 < Date: Fri, 28 Feb 2025 13:37:48 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"password":["can't be blank"]}}
+
+08:37:48.708 [main] INFO  com.intuit.karate - karate.env system property was: null 
+08:37:48.721 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc0OTg2NSwiZXhwIjoxNzQ1OTMzODY1fQ.47c77eUUUJ_ePSBrRUiziJoBjqqlU9ot6_XsRcAlnPs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 67
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza11","password":"Karate123","username":""}}
+
+08:37:49.173 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 422
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < X-Cloud-Trace-Context: a8ce629d97d411e601508f1e1011d1d1
+1 < Date: Fri, 28 Feb 2025 13:37:49 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"username":["can't be blank"]}}
+
+09:56:22.350 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+09:56:22.627 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:56:23.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:56:23.366 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+09:56:23.604 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+09:56:24.501 [main] DEBUG com.intuit.karate - response time in milliseconds: 893
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-Oq6wTOxNXdmrRUxIxt9LhpdGygc"
+1 < X-Cloud-Trace-Context: a0511ab9f32eab62732643f819e84fbb;o=1
+1 < Date: Fri, 28 Feb 2025 14:56:24 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NDU4NCwiZXhwIjoxNzQ1OTM4NTg0fQ.6TBOKWtj2E4oVtPPdfFfzj8Y-2VVP55wI5uj2nDXZWw"}}
+
+09:56:24.507 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+09:56:24.520 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:5
+* def articleRequestBody = read('classpath:conduitApp/json/newArticle.json')
+js failed:
+>>>>
+01: read('classpath:conduitApp/json/newArticle.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: conduitApp/json/newArticle.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:conduitApp/feature/Articles.feature:5
+09:56:49.140 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+09:56:49.394 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:56:49.959 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:56:49.963 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+09:56:50.182 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+09:56:50.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 631
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-rd4PrO/4UTCl4JLIipRrJLxNu04"
+1 < X-Cloud-Trace-Context: 72af0893090f43b86f1eca840cceb0d5
+1 < Date: Fri, 28 Feb 2025 14:56:50 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NDYxMCwiZXhwIjoxNzQ1OTM4NjEwfQ.ETQR5xbfKb0xVuhjNh85fHUnGGFReYJhJ2jxjP5egoY"}}
+
+09:56:50.822 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+09:56:50.830 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NDYxMCwiZXhwIjoxNzQ1OTM4NjEwfQ.ETQR5xbfKb0xVuhjNh85fHUnGGFReYJhJ2jxjP5egoY
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"test1261","description":"test","body":"test","tagList":["test"]}}
+
+09:56:51.400 [main] DEBUG com.intuit.karate - response time in milliseconds: 570
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"167-EySl8xJQBnzvIkZTPw78frtt3ug"
+1 < X-Cloud-Trace-Context: 67d7cd1c64487a4a41f08674957412ff
+1 < Date: Fri, 28 Feb 2025 14:56:51 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 359
+{"article":{"slug":"test1261-21337","title":"test1261","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-28T14:56:51.173Z","updatedAt":"2025-02-28T14:56:51.173Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+09:56:51.408 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:13
+And match response.article.title == 'test1134'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'test1261'
+  'test1134'
+
+classpath:conduitApp/feature/Articles.feature:13
+09:57:35.253 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+09:57:35.509 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:57:36.074 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:57:36.080 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+09:57:36.295 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+09:57:36.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 622
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-9+lKk6HwS6iBsO9WiQsn7DQ1byk"
+1 < X-Cloud-Trace-Context: ff11b57424cffa07d1dd7a02aeb4b3da;o=1
+1 < Date: Fri, 28 Feb 2025 14:57:36 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NDY1NiwiZXhwIjoxNzQ1OTM4NjU2fQ.mJS9yfGxQI14BxwMs94-wEyHN9niLREeGQlLUtnuKRc"}}
+
+09:57:36.926 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+09:57:36.934 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NDY1NiwiZXhwIjoxNzQ1OTM4NjU2fQ.mJS9yfGxQI14BxwMs94-wEyHN9niLREeGQlLUtnuKRc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"test1134c","description":"test","body":"test","tagList":["test"]}}
+
+09:57:37.522 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"169-VYsAdwIunJw9BexoCGCthm3S/nI"
+1 < X-Cloud-Trace-Context: af29621e1a287d12e40a8c6776fc52cc
+1 < Date: Fri, 28 Feb 2025 14:57:37 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 361
+{"article":{"slug":"test1134c-21337","title":"test1134c","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-28T14:57:37.283Z","updatedAt":"2025-02-28T14:57:37.283Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+10:10:03.264 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+10:10:03.496 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:10:04.127 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:10:04.132 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+10:10:04.368 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"cloaiza@test.com","password":"karate1"}}
+
+10:10:05.163 [main] DEBUG com.intuit.karate - response time in milliseconds: 793
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"134-NoehhbuePvo9ascKOSfQpPUZyXQ"
+1 < X-Cloud-Trace-Context: b13a7a7fc213da40da36046846f29768;o=1
+1 < Date: Fri, 28 Feb 2025 15:10:05 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 308
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NTQwNSwiZXhwIjoxNzQ1OTM5NDA1fQ.fshsVxFHcOIVcqz-DwavZVqXfsd41YX_S9WBLgDq09U"}}
+
+10:10:05.170 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+10:10:05.272 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NTQwNSwiZXhwIjoxNzQ1OTM5NDA1fQ.fshsVxFHcOIVcqz-DwavZVqXfsd41YX_S9WBLgDq09U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"Craster","description":"Meereen","body":"Fear cuts deeper than swords.","tagList":[]}}
+
+10:10:06.380 [main] DEBUG com.intuit.karate - response time in milliseconds: 1107
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"17b-KIlX13CSJQc/FPuvj1TY41TNaSA"
+1 < X-Cloud-Trace-Context: 52810b06f98a34f24d6adcf732dc3fd0
+1 < Date: Fri, 28 Feb 2025 15:10:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 379
+{"article":{"slug":"Craster-21337","title":"Craster","description":"Meereen","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-02-28T15:10:06.139Z","updatedAt":"2025-02-28T15:10:06.139Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+10:10:06.394 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:10:06.426 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NTQwNSwiZXhwIjoxNzQ1OTM5NDA1fQ.fshsVxFHcOIVcqz-DwavZVqXfsd41YX_S9WBLgDq09U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 102
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"article":{"title":"Crawn","description":"Gulltown","body":"The things I do for love.","tagList":[]}}
+
+10:10:06.982 [main] DEBUG com.intuit.karate - response time in milliseconds: 556
+1 < 201
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"174-nsJikvJ5MZ3F1V5KxWQvLUT2K/I"
+1 < X-Cloud-Trace-Context: 15f06da5243033c137ea9eaadb029ac3
+1 < Date: Fri, 28 Feb 2025 15:10:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 372
+{"article":{"slug":"Crawn-21337","title":"Crawn","description":"Gulltown","body":"The things I do for love.","tagList":[],"createdAt":"2025-02-28T15:10:06.751Z","updatedAt":"2025-02-28T15:10:06.751Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+
+10:10:06.986 [main] DEBUG com.intuit.karate - request:
+2 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NTQwNSwiZXhwIjoxNzQ1OTM5NDA1fQ.fshsVxFHcOIVcqz-DwavZVqXfsd41YX_S9WBLgDq09U
+2 > Host: conduit-api.bondaracademy.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+2 > Accept-Encoding: gzip,deflate
+
+
+10:10:07.568 [main] DEBUG com.intuit.karate - response time in milliseconds: 582
+2 < 200
+2 < x-powered-by: Express
+2 < vary: Origin
+2 < content-type: application/json; charset=utf-8
+2 < etag: W/"df0-yZ+mZdjxL5ihZ6oHgI2Mjp0OqPE"
+2 < x-cloud-trace-context: 44164f9ad6dec8d551dfae57e63dfeca
+2 < date: Fri, 28 Feb 2025 15:10:07 GMT
+2 < server: Google Frontend
+2 < Content-Length: 3568
+{"articles":[{"slug":"Crawn-21337","title":"Crawn","description":"Gulltown","body":"The things I do for love.","tagList":[],"createdAt":"2025-02-28T15:10:06.751Z","updatedAt":"2025-02-28T15:10:06.751Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Craster-21337","title":"Craster","description":"Meereen","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-02-28T15:10:06.139Z","updatedAt":"2025-02-28T15:10:06.139Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1134c-21337","title":"test1134c","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-28T14:57:37.283Z","updatedAt":"2025-02-28T14:57:37.283Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1261-21337","title":"test1261","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-28T14:56:51.173Z","updatedAt":"2025-02-28T14:56:51.173Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":22}
+
+10:10:07.575 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://conduit-api.bondaracademy.com/api/articles/Crawn-21337
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NTQwNSwiZXhwIjoxNzQ1OTM5NDA1fQ.fshsVxFHcOIVcqz-DwavZVqXfsd41YX_S9WBLgDq09U
+3 > Host: conduit-api.bondaracademy.com
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+3 > Accept-Encoding: gzip,deflate
+
+
+10:10:08.038 [main] DEBUG com.intuit.karate - response time in milliseconds: 462
+3 < 204
+3 < x-powered-by: Express
+3 < vary: Origin
+3 < etag: W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
+3 < X-Cloud-Trace-Context: b925d6a467789acedc70886a05e8858b
+3 < Date: Fri, 28 Feb 2025 15:10:07 GMT
+3 < Content-Type: text/html
+3 < Server: Google Frontend
+3 < Content-Length: 0
+
+
+10:10:08.039 [main] DEBUG com.intuit.karate - request:
+4 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
+4 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MDc1NTQwNSwiZXhwIjoxNzQ1OTM5NDA1fQ.fshsVxFHcOIVcqz-DwavZVqXfsd41YX_S9WBLgDq09U
+4 > Host: conduit-api.bondaracademy.com
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+4 > Accept-Encoding: gzip,deflate
+
+
+10:10:08.651 [main] DEBUG com.intuit.karate - response time in milliseconds: 612
+4 < 200
+4 < x-powered-by: Express
+4 < vary: Origin
+4 < content-type: application/json; charset=utf-8
+4 < etag: W/"ddd-4Jh9rOTj9YZngP30FJgp6arYPpo"
+4 < X-Cloud-Trace-Context: 1ce30cc0dbe1a5177a1da1ca7326c9c6
+4 < Date: Fri, 28 Feb 2025 15:10:08 GMT
+4 < Server: Google Frontend
+4 < Content-Length: 3549
+{"articles":[{"slug":"Craster-21337","title":"Craster","description":"Meereen","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-02-28T15:10:06.139Z","updatedAt":"2025-02-28T15:10:06.139Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1134c-21337","title":"test1134c","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-28T14:57:37.283Z","updatedAt":"2025-02-28T14:57:37.283Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1261-21337","title":"test1261","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-28T14:56:51.173Z","updatedAt":"2025-02-28T14:56:51.173Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1134-21337","title":"test1134","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T22:13:33.556Z","updatedAt":"2025-02-25T22:13:33.556Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test121-21337","title":"test121","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T22:06:23.517Z","updatedAt":"2025-02-25T22:06:23.517Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test113-21337","title":"test113","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T21:52:21.824Z","updatedAt":"2025-02-25T21:52:21.824Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test112-21337","title":"test112","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:35:40.311Z","updatedAt":"2025-02-25T16:35:40.311Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test111-21337","title":"test111","description":"testDesc","body":"testBody","tagList":["Test"],"createdAt":"2025-02-25T16:34:11.419Z","updatedAt":"2025-02-25T16:34:11.419Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test11-21337","title":"test11","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:28:07.449Z","updatedAt":"2025-02-25T16:28:07.449Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test1-21337","title":"test1","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-02-25T16:24:45.074Z","updatedAt":"2025-02-25T16:24:45.074Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":21}
+
