@@ -1,4 +1,3 @@
-
 Feature: Sign Up New User
 
     Background: Preconditions
@@ -44,7 +43,8 @@ Feature: Sign Up New User
                 }
             }
         """
-    
+
+    @parallel=false
     Scenario Outline: Validate Sign Up Error Message
         Given path 'users'
         And request 
