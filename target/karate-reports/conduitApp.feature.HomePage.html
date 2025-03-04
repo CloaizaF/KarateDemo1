@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-03-04 09:54:58 a. m.</div>
+    <div>2025-03-04 10:38:35 a. m.</div>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>810</span>
+              <span>ms:</span>&nbsp;<span>794</span>
             </div>
           </div>
           <div class="step-row">
@@ -107,7 +107,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url apiUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -116,214 +116,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">09:54:55.448 &lt;&lt; lock released, cached callSingle: classpath:helpers/GetToken.feature
-</div>   
-
-  <div>
-        
-    <div class="step-row">
-      <div class="step-container" id="0.5.0.call">
-        <div class="step-ref bg-step">&gt;&gt;</div>
-        <div class="step-indent"></div>
-        <div class="step-cell passed">helpers.GetToken</div>
-      </div>
-      <div class="time-cell passed">856</div>
-    </div>
-    <div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.4">
-      <div class="step-ref bg-step">4</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.4">09:54:54.553 karate.env system property was: null 
-09:54:54.559 &gt;&gt; lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+  <div class="preformatted" data-parent="0.5">10:38:31.230 karate.env system property was: null 
+10:38:32.250 this thread waited 1013 milliseconds for callSingle lock: classpath:helpers/GetToken.feature
 </div>   
 
   
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.5">
-      <div class="step-ref bg-step">5</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.6">
-      <div class="step-ref bg-step">6</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">52</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.7">
-      <div class="step-ref bg-step">7</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method Post</span>
-      </div>
-    </div>
-    <div class="time-cell passed">796</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.5.0.call.0.7">09:54:54.824 request:
-1 &gt; POST https://conduit-api.bondaracademy.com/api/users/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 58
-1 &gt; Host: conduit-api.bondaracademy.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;email&quot;:&quot;cloaiza@test.com&quot;,&quot;password&quot;:&quot;karate1&quot;}}
-
-09:54:55.441 response time in milliseconds: 615
-1 &lt; 200
-1 &lt; x-powered-by: Express
-1 &lt; vary: Origin
-1 &lt; content-type: application/json; charset=utf-8
-1 &lt; etag: W/&quot;134-5yrmJWqrDh2pz5kBqxSSoc9OgA4&quot;
-1 &lt; X-Cloud-Trace-Context: 9c68ad2279fca29f0d803ed8c5a86440
-1 &lt; Date: Tue, 04 Mar 2025 14:54:53 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 308
-{&quot;user&quot;:{&quot;email&quot;:&quot;cloaiza@test.com&quot;,&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTEwMDA5MywiZXhwIjoxNzQ2Mjg0MDkzfQ.b3_BY_KwSN4wD5oDYi6jr6mIMfrjTZwN0h9gaY8v1-U&quot;}}
-
-</div>   
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.8">
-      <div class="step-ref bg-step">8</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
-      </div>
-    </div>
-    <div class="time-cell passed">2</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-      <div><div>
-  
-
-  
-
-  <div class="step-row" data-parent="0.5.0.call">
-    <div class="step-container" id="0.5.0.call.0.9">
-      <div class="step-ref bg-step">9</div>
-      <div class="step-indent"></div>
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
-      </div>
-    </div>
-    <div class="time-cell passed">3</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-    </div>    
-  </div>
 
 </div>
 </div>
@@ -368,7 +165,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">804</div>
+    <div class="time-cell passed">789</div>
   </div>
 
    
@@ -377,24 +174,24 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.9">09:54:55.454 request:
+  <div class="preformatted" data-parent="0.9">10:38:32.257 request:
 1 &gt; GET https://conduit-api.bondaracademy.com/api/tags
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTEwMDA5MywiZXhwIjoxNzQ2Mjg0MDkzfQ.b3_BY_KwSN4wD5oDYi6jr6mIMfrjTZwN0h9gaY8v1-U
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTEwMjcxMCwiZXhwIjoxNzQ2Mjg2NzEwfQ.PCXmwhHPtKmz9Av1_a4nbQeiPkkhMdY1fn9Zb3su7Wc
 1 &gt; Host: conduit-api.bondaracademy.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-09:54:56.257 response time in milliseconds: 802
+10:38:33.043 response time in milliseconds: 785
 1 &lt; 200
 1 &lt; x-powered-by: Express
 1 &lt; vary: Origin
 1 &lt; content-type: application/json; charset=utf-8
 1 &lt; etag: W/&quot;67-cNIcjyO+YmKhGh8UHD3txAODR5U&quot;
-1 &lt; X-Cloud-Trace-Context: 64d30430a9863d2ea97552345ecb377f
-1 &lt; Date: Tue, 04 Mar 2025 14:54:54 GMT
-1 &lt; Server: Google Frontend
+1 &lt; x-cloud-trace-context: 89845a444b6c33375d9d21fc77235045
+1 &lt; date: Tue, 04 Mar 2025 15:38:31 GMT
+1 &lt; server: Google Frontend
 1 &lt; Content-Length: 103
 {&quot;tags&quot;:[&quot;Test&quot;,&quot;GitHub&quot;,&quot;Coding&quot;,&quot;Git&quot;,&quot;Enroll&quot;,&quot;Bondar Academy&quot;,&quot;Zoom&quot;,&quot;qa career&quot;,&quot;YouTube&quot;,&quot;Exam&quot;]}
 
@@ -502,7 +299,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>630</span>
+              <span>ms:</span>&nbsp;<span>744</span>
             </div>
           </div>
           <div class="step-row">
@@ -534,7 +331,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">09:54:56.232 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.5">10:38:32.915 karate.env system property was: null 
 </div>   
 
   
@@ -554,7 +351,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def isValidTime = read(&#39;classpath:helpers/timeValidator.js&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -638,7 +435,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">604</div>
+    <div class="time-cell passed">720</div>
   </div>
 
    
@@ -647,26 +444,26 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.18">09:54:56.244 request:
+  <div class="preformatted" data-parent="0.18">10:38:32.924 request:
 1 &gt; GET https://conduit-api.bondaracademy.com/api/articles?offset=0&amp;limit=10
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTEwMDA5MywiZXhwIjoxNzQ2Mjg0MDkzfQ.b3_BY_KwSN4wD5oDYi6jr6mIMfrjTZwN0h9gaY8v1-U
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTEwMjcxMCwiZXhwIjoxNzQ2Mjg2NzEwfQ.PCXmwhHPtKmz9Av1_a4nbQeiPkkhMdY1fn9Zb3su7Wc
 1 &gt; Host: conduit-api.bondaracademy.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-09:54:56.847 response time in milliseconds: 602
+10:38:33.642 response time in milliseconds: 716
 1 &lt; 200
 1 &lt; x-powered-by: Express
 1 &lt; vary: Origin
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; etag: W/&quot;1032-GaRYtgQjN0sq7i422Jgi8HFf1nI&quot;
-1 &lt; X-Cloud-Trace-Context: 9b30b1f5ebb1346910d0be3ff933f9c3
-1 &lt; Date: Tue, 04 Mar 2025 14:54:55 GMT
+1 &lt; etag: W/&quot;fa5-+HJp9ey5/CjpLw0wcmer2v8Tihw&quot;
+1 &lt; X-Cloud-Trace-Context: 7730ee45b6dc0baefd4cfb4e4025fc83
+1 &lt; Date: Tue, 04 Mar 2025 15:38:32 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 4146
-{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Kromm-21337&quot;,&quot;title&quot;:&quot;Kromm&quot;,&quot;description&quot;:&quot;Old Ghis&quot;,&quot;body&quot;:&quot;Hodor? Hodor.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:54:54.522Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:54:54.522Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Quellon-Botley-21337&quot;,&quot;title&quot;:&quot;Quellon Botley&quot;,&quot;description&quot;:&quot;Volantis&quot;,&quot;body&quot;:&quot;Fear cuts deeper than swords.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:54:54.519Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:54:54.519Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Ordello-21337&quot;,&quot;title&quot;:&quot;Ordello&quot;,&quot;description&quot;:&quot;Old Ghis&quot;,&quot;body&quot;:&quot;... a mind needs books as a sword needs a whetstone, if it is to keep its edge.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:54:01.128Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:54:01.128Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Daemon-I-Blackfyre-21337&quot;,&quot;title&quot;:&quot;Daemon I Blackfyre&quot;,&quot;description&quot;:&quot;Lorath&quot;,&quot;body&quot;:&quot;And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o&#39;er his hall, with no one there to hear. Yes, now the rains weep o&#39;er his hall, and not a soul to hear.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:28:53.705Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:28:53.705Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Aethan-21337&quot;,&quot;title&quot;:&quot;Aethan&quot;,&quot;description&quot;:&quot;Sunspear&quot;,&quot;body&quot;:&quot;Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:28:53.681Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:28:53.681Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Bryen-21337&quot;,&quot;title&quot;:&quot;Bryen&quot;,&quot;description&quot;:&quot;King&#39;s Landing&quot;,&quot;body&quot;:&quot;Things are not always as they seemed, much that may seem evil can be good.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:28:28.492Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:28:28.492Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Kaeth-21337&quot;,&quot;title&quot;:&quot;Kaeth&quot;,&quot;description&quot;:&quot;Ar Noy&quot;,&quot;body&quot;:&quot;Do the dead frighten you?&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:28:28.187Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:28:28.187Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Harwin-21337&quot;,&quot;title&quot;:&quot;Harwin&quot;,&quot;description&quot;:&quot;Oros&quot;,&quot;body&quot;:&quot;Give me honorable enemies rather than ambitious ones, and I&#39;ll sleep more easily by night.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:28:02.309Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:28:02.309Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Buu-21337&quot;,&quot;title&quot;:&quot;Buu&quot;,&quot;description&quot;:&quot;Tyria&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:28:02.189Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:28:02.189Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Ronald-Vance-21337&quot;,&quot;title&quot;:&quot;Ronald Vance&quot;,&quot;description&quot;:&quot;Norvos&quot;,&quot;body&quot;:&quot;The things I do for love.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T14:27:30.271Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T14:27:30.271Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:32}
+1 &lt; Content-Length: 4005
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Gevin-Harlaw-21337&quot;,&quot;title&quot;:&quot;Gevin Harlaw&quot;,&quot;description&quot;:&quot;Sunspear&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:38:31.234Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:38:31.234Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Qyle-21337&quot;,&quot;title&quot;:&quot;Qyle&quot;,&quot;description&quot;:&quot;Ny Sar&quot;,&quot;body&quot;:&quot;There are no heroes...in life, the monsters win.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:38:31.224Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:38:31.224Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Ronnet-Connington-21337&quot;,&quot;title&quot;:&quot;Ronnet Connington&quot;,&quot;description&quot;:&quot;Old Ghis&quot;,&quot;body&quot;:&quot;The North remembers.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:33:31.237Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:33:31.237Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Qalen-21337&quot;,&quot;title&quot;:&quot;Qalen&quot;,&quot;description&quot;:&quot;Lorath&quot;,&quot;body&quot;:&quot;Hodor? Hodor.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:33:30.994Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:33:30.994Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Norren-21337&quot;,&quot;title&quot;:&quot;Norren&quot;,&quot;description&quot;:&quot;King&#39;s Landing&quot;,&quot;body&quot;:&quot;Give me honorable enemies rather than ambitious ones, and I&#39;ll sleep more easily by night.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:28:09.972Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:28:09.972Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Selwyn-Tarth-21337&quot;,&quot;title&quot;:&quot;Selwyn Tarth&quot;,&quot;description&quot;:&quot;Vaes Dothrak&quot;,&quot;body&quot;:&quot;Knowledge could be more valuable than gold, more deadly than a dagger.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:23:22.152Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:23:22.152Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Tytos-Lannister-21337&quot;,&quot;title&quot;:&quot;Tytos Lannister&quot;,&quot;description&quot;:&quot;Braavos&quot;,&quot;body&quot;:&quot;Fear cuts deeper than swords.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:17:18.052Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:17:18.052Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Malcolm-21337&quot;,&quot;title&quot;:&quot;Malcolm&quot;,&quot;description&quot;:&quot;Tyrosh&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:17:18.032Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:17:18.032Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Irri-21337&quot;,&quot;title&quot;:&quot;Irri&quot;,&quot;description&quot;:&quot;Samyrian&quot;,&quot;body&quot;:&quot;Why is it that when one man builds a wall, the next man immediately needs to know what&#39;s on the other side?&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:16:53.132Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:16:53.132Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Aegon-IV-Targaryen-21337&quot;,&quot;title&quot;:&quot;Aegon IV Targaryen&quot;,&quot;description&quot;:&quot;Old Valyria&quot;,&quot;body&quot;:&quot;Laughter is poison to fear.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2025-03-04T15:16:07.263Z&quot;,&quot;updatedAt&quot;:&quot;2025-03-04T15:16:07.263Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;cloaiza&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:52}
 
 </div>   
 
