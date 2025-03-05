@@ -78,3 +78,15 @@ Feature: Tests for the home page
         When method Get
         * eval sleep(5000)
         Then status 200
+
+    Scenario: Number to String
+        * def foo = 10
+        * def json = { "bar": #(foo + '') }
+        * match json == { "bar": '10' }
+
+    Scenario: String to Number
+        * def foo = '10'
+        * def json1 = { "bar": #(foo * 1) }
+        * def json2 = { "bar": #(parseInt(foo)) }
+        * match json1 == { "bar": 10 }
+        * match json2 == { "bar": 10 }

@@ -3,7 +3,7 @@ Feature: Homework
     Background: Preconditions
         * url apiUrl
 
-    @ignore
+    @debug
     Scenario: Favorite articles
         Given path 'articles'
         Given params { limit: 10, offset: 0 }
