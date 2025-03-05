@@ -15,6 +15,7 @@ Feature: Homework
         * def isValidTime = read('classpath:helpers/timeValidator.js')
 
         Given path 'articles/' + slug +'/favorite'
+        And request {}
         When method Post
         Then status 200
         And match response == 
@@ -22,7 +23,7 @@ Feature: Homework
             {
                 "article": {
                     "id": "#number",
-                    "slug": slug,
+                    "slug": #(slug),
                     "title": "#string",
                     "description": "#string",
                     "body": "#string",
