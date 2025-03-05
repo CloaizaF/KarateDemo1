@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="8.167" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="4.186" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\loaiz\AppData\Local\Temp\surefire9657344735715572818\surefirebooter-20250305103914688_3.jar C:\Users\loaiz\AppData\Local\Temp\surefire9657344735715572818 2025-03-05T10-39-14_586-jvmRun1 surefire-20250305103914688_1tmp surefire_0-20250305103914688_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\loaiz\AppData\Local\Temp\surefire7747644627891822077\surefirebooter-20250305105152443_3.jar C:\Users\loaiz\AppData\Local\Temp\surefire7747644627891822077 2025-03-05T10-51-52_359-jvmRun1 surefire-20250305105152443_1tmp surefire_0-20250305105152443_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\test-classes;C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\classes;C:\Users\loaiz\.m2\repository\com\intuit\karate\karate-junit5\1.4.1\karate-junit5-1.4.1.jar;C:\Users\loaiz\.m2\repository\com\intuit\karate\karate-core\1.4.1\karate-core-1.4.1.jar;C:\Users\loaiz\.m2\repository\org\graalvm\js\js-scriptengine\22.3.3\js-scriptengine-22.3.3.jar;C:\Users\loaiz\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.3\graal-sdk-22.3.3.jar;C:\Users\loaiz\.m2\repository\org\graalvm\js\js\22.3.3\js-22.3.3.jar;C:\Users\loaiz\.m2\repository\org\graalvm\regex\regex\22.3.3\regex-22.3.3.jar;C:\Users\loaiz\.m2\repository\org\graalvm\truffle\truffle-api\22.3.3\truffle-api-22.3.3.jar;C:\Users\loaiz\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\loaiz\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\loaiz\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\loaiz\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\loaiz\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\loaiz\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\loaiz\.m2\repository\com\linecorp\armeria\armeria\1.25.2\armeria-1.25.2.jar;C:\Users\loaiz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\loaiz\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\loaiz\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\loaiz\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\loaiz\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\loaiz\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-codec-haproxy\4.1.96.Final\netty-codec-haproxy-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-codec-http2\4.1.96.Final\netty-codec-http2-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-resolver-dns\4.1.96.Final\netty-resolver-dns-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-codec-dns\4.1.96.Final\netty-codec-dns-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\loaiz\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-handler-proxy\4.1.96.Final\netty-handler-proxy-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-codec-socks\4.1.96.Final\netty-codec-socks-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.96.Final\netty-resolver-dns-classes-macos-4.1.96.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-tcnative-classes\2.0.61.Final\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\loaiz\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\loaiz\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.12.0\brotli4j-1.12.0.jar;C:\Users\loaiz\.m2\repository\com\aayushatharva\brotli4j\service\1.12.0\service-1.12.0.jar;C:\Users\loaiz\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.12.0\native-windows-x86_64-1.12.0.jar;C:\Users\loaiz\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\loaiz\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\loaiz\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\loaiz\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\loaiz\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\loaiz\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\loaiz\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\loaiz\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\loaiz\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\loaiz\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\loaiz\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\loaiz\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\loaiz\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\loaiz\.m2\repository\io\github\classgraph\classgraph\4.8.160\classgraph-4.8.160.jar;C:\Users\loaiz\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\loaiz\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\loaiz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\loaiz\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\loaiz\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\loaiz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\loaiz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\loaiz\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\loaiz\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\loaiz\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\loaiz\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\loaiz\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\loaiz\.m2\repository\net\masterthought\cucumber-reporting\5.8.4\cucumber-reporting-5.8.4.jar;C:\Users\loaiz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\loaiz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\loaiz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\loaiz\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.1\jackson-datatype-jsr310-2.18.1.jar;C:\Users\loaiz\.m2\repository\joda-time\joda-time\2.13.0\joda-time-2.13.0.jar;C:\Users\loaiz\.m2\repository\org\apache\commons\commons-configuration2\2.11.0\commons-configuration2-2.11.0.jar;C:\Users\loaiz\.m2\repository\commons-io\commons-io\2.17.0\commons-io-2.17.0.jar;C:\Users\loaiz\.m2\repository\org\jsoup\jsoup\1.18.1\jsoup-1.18.1.jar;C:\Users\loaiz\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\loaiz\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\loaiz\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\loaiz\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\loaiz\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.16\jcl-over-slf4j-2.0.16.jar;C:\Users\loaiz\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\loaiz\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\loaiz\.m2\repository\org\apache\commons\commons-text\1.13.0\commons-text-1.13.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="karate.options" value=" --tags debug"/>
-    <property name="surefire.real.class.path" value="C:\Users\loaiz\AppData\Local\Temp\surefire9657344735715572818\surefirebooter-20250305103914688_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\loaiz\AppData\Local\Temp\surefire7747644627891822077\surefirebooter-20250305105152443_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
@@ -59,13 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="8.151">
-    <system-out><![CDATA[10:39:15.384 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags debug
-10:39:15.951 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-10:39:15.953 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1741189155951
-10:39:16.622 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:39:16.628 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
-10:39:16.885 [main] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="4.183">
+    <system-out><![CDATA[10:51:53.058 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags debug
+10:51:53.605 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:51:53.616 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1741189913605
+10:51:54.212 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:51:54.217 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/GetToken.feature
+10:51:54.408 [main] DEBUG com.intuit.karate - request:
 1 > POST https://conduit-api.bondaracademy.com/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 58
@@ -75,240 +75,78 @@
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"cloaiza@test.com","password":"karate1"}}
 
-10:39:17.721 [main] DEBUG com.intuit.karate - response time in milliseconds: 836
+10:51:55.085 [main] DEBUG com.intuit.karate - response time in milliseconds: 670
 1 < 200
 1 < x-powered-by: Express
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"134-VCmf+pFACacJm+V4FQ2NqYu02do"
-1 < X-Cloud-Trace-Context: 47cd837944544196feef08369f939537
-1 < Date: Wed, 05 Mar 2025 15:39:17 GMT
+1 < etag: W/"134-pf+f6RNnAWvLlwWy50dDhemCaFs"
+1 < X-Cloud-Trace-Context: 50300c6db40e9a4d060f055d995f4e00;o=1
+1 < Date: Wed, 05 Mar 2025 15:51:54 GMT
 1 < Server: Google Frontend
 1 < Content-Length: 308
-{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k"}}
+{"user":{"email":"cloaiza@test.com","username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTkxNCwiZXhwIjoxNzQ2MzczOTE0fQ.0LVQi8f-2tEFBKElFRAiJDN1nNKVwum7fS7ZRK7JHcU"}}
 
-10:39:17.731 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
-10:39:17.839 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 138
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-1 > Accept-Encoding: gzip,deflate
-{"article":{"title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[]}}
-
-10:39:18.246 [main] DEBUG com.intuit.karate - response time in milliseconds: 406
-1 < 201
-1 < x-powered-by: Express
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"19e-WltR/I8hRt0UxrnsYnTbbpZR2zM"
-1 < X-Cloud-Trace-Context: bed09715ced22461269bdaab0d3bd58d
-1 < Date: Wed, 05 Mar 2025 15:39:18 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 414
-{"article":{"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[],"createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
-
-10:39:18.267 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:39:18.301 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 117
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-1 > Accept-Encoding: gzip,deflate
-{"article":{"title":"Baelor Hightower","description":"Gulltown","body":"Fear cuts deeper than swords.","tagList":[]}}
-
-10:39:18.687 [main] DEBUG com.intuit.karate - response time in milliseconds: 386
-1 < 201
-1 < x-powered-by: Express
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"18e-IoY8yKwcnV+aEtMDsqLdK/jFijA"
-1 < X-Cloud-Trace-Context: 1f1f629f8e299314853fe0b4d1c4f73b;o=1
-1 < Date: Wed, 05 Mar 2025 15:39:18 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 398
-{"article":{"slug":"Baelor-Hightower-21337","title":"Baelor Hightower","description":"Gulltown","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:39:18.463Z","updatedAt":"2025-03-05T15:39:18.463Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
-
-10:39:18.694 [main] DEBUG com.intuit.karate - request:
-2 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-2 > Host: conduit-api.bondaracademy.com
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-2 > Accept-Encoding: gzip,deflate
-
-
-10:39:19.205 [main] DEBUG com.intuit.karate - response time in milliseconds: 511
-2 < 200
-2 < x-powered-by: Express
-2 < vary: Origin
-2 < content-type: application/json; charset=utf-8
-2 < etag: W/"1067-ddNUjzJVtS0rLgxa1fZbqhMnZXA"
-2 < X-Cloud-Trace-Context: d6c47a3d24b2cb54f70c0d188f794ac0
-2 < Date: Wed, 05 Mar 2025 15:39:19 GMT
-2 < Server: Google Frontend
-2 < Content-Length: 4199
-{"articles":[{"slug":"Baelor-Hightower-21337","title":"Baelor Hightower","description":"Gulltown","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:39:18.463Z","updatedAt":"2025-03-05T15:39:18.463Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[],"createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Chiswyck-21337","title":"Chiswyck","description":"Tyria","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","tagList":[],"createdAt":"2025-03-05T15:36:59.190Z","updatedAt":"2025-03-05T15:36:59.190Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Roelle-21337","title":"Roelle","description":"Astapor","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2025-03-05T15:35:44.491Z","updatedAt":"2025-03-05T15:35:44.491Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Walder-Frey-21337","title":"Walder Frey","description":"Asshai","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:30:52.899Z","updatedAt":"2025-03-05T15:30:52.899Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Wenda-21337","title":"Wenda","description":"Ar Noy","body":"The North remembers.","tagList":[],"createdAt":"2025-03-04T15:50:52.372Z","updatedAt":"2025-03-04T15:50:52.372Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Beqqo-21337","title":"Beqqo","description":"Ar Noy","body":"Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.","tagList":[],"createdAt":"2025-03-04T15:50:18.543Z","updatedAt":"2025-03-04T15:50:18.543Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Deana-Hardyng-21337","title":"Deana Hardyng","description":"Bhorash","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.051Z","updatedAt":"2025-03-04T15:49:29.051Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Galyeon-of-Cuy-21337","title":"Galyeon of Cuy","description":"Volantis","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.025Z","updatedAt":"2025-03-04T15:49:29.025Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Taena-of-Myr-21337","title":"Taena of Myr","description":"King's Landing","body":"When the snows fall and the white winds blow, the lone wolf dies but the pack survives.","tagList":[],"createdAt":"2025-03-04T15:45:51.804Z","updatedAt":"2025-03-04T15:45:51.804Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":62}
-
-10:39:19.213 [main] DEBUG com.intuit.karate - request:
-3 > DELETE https://conduit-api.bondaracademy.com/api/articles/Baelor-Hightower-21337
-3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-3 > Host: conduit-api.bondaracademy.com
-3 > Connection: Keep-Alive
-3 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-3 > Accept-Encoding: gzip,deflate
-
-
-10:39:19.549 [main] DEBUG com.intuit.karate - response time in milliseconds: 336
-3 < 204
-3 < x-powered-by: Express
-3 < vary: Origin
-3 < etag: W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
-3 < X-Cloud-Trace-Context: 8fb269b2c8fd6448722bce4c8151b1cf
-3 < Date: Wed, 05 Mar 2025 15:39:19 GMT
-3 < Content-Type: text/html
-3 < Server: Google Frontend
-3 < Content-Length: 0
-
-
-10:39:19.549 [main] DEBUG com.intuit.karate - request:
-4 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
-4 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-4 > Host: conduit-api.bondaracademy.com
-4 > Connection: Keep-Alive
-4 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-4 > Accept-Encoding: gzip,deflate
-
-
-10:39:20.025 [main] DEBUG com.intuit.karate - response time in milliseconds: 476
-4 < 200
-4 < x-powered-by: Express
-4 < vary: Origin
-4 < content-type: application/json; charset=utf-8
-4 < etag: W/"1042-JzACfUj44I07Se811ITmbqC8D0k"
-4 < X-Cloud-Trace-Context: 09336030900eacb4293d493949dba94f
-4 < Date: Wed, 05 Mar 2025 15:39:19 GMT
-4 < Server: Google Frontend
-4 < Content-Length: 4162
-{"articles":[{"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[],"createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Chiswyck-21337","title":"Chiswyck","description":"Tyria","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","tagList":[],"createdAt":"2025-03-05T15:36:59.190Z","updatedAt":"2025-03-05T15:36:59.190Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Roelle-21337","title":"Roelle","description":"Astapor","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2025-03-05T15:35:44.491Z","updatedAt":"2025-03-05T15:35:44.491Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Walder-Frey-21337","title":"Walder Frey","description":"Asshai","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:30:52.899Z","updatedAt":"2025-03-05T15:30:52.899Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Wenda-21337","title":"Wenda","description":"Ar Noy","body":"The North remembers.","tagList":[],"createdAt":"2025-03-04T15:50:52.372Z","updatedAt":"2025-03-04T15:50:52.372Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Beqqo-21337","title":"Beqqo","description":"Ar Noy","body":"Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.","tagList":[],"createdAt":"2025-03-04T15:50:18.543Z","updatedAt":"2025-03-04T15:50:18.543Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Deana-Hardyng-21337","title":"Deana Hardyng","description":"Bhorash","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.051Z","updatedAt":"2025-03-04T15:49:29.051Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Galyeon-of-Cuy-21337","title":"Galyeon of Cuy","description":"Volantis","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.025Z","updatedAt":"2025-03-04T15:49:29.025Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Taena-of-Myr-21337","title":"Taena of Myr","description":"King's Landing","body":"When the snows fall and the white winds blow, the lone wolf dies but the pack survives.","tagList":[],"createdAt":"2025-03-04T15:45:51.804Z","updatedAt":"2025-03-04T15:45:51.804Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Lennocks-21337","title":"Lennocks","description":"Myr","body":"Hodor? Hodor.","tagList":[],"createdAt":"2025-03-04T15:45:51.802Z","updatedAt":"2025-03-04T15:45:51.802Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":61}
-
----------------------------------------------------------
-feature: classpath:conduitApp/feature/Articles.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 2,2876
----------------------------------------------------------
-
-10:39:20.424 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (0 remaining) classpath:conduitApp/feature/Articles.feature
-10:39:20.426 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:39:20.426 [main] DEBUG com.intuit.karate - request:
+10:51:55.092 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/GetToken.feature
+10:51:55.099 [main] DEBUG com.intuit.karate - request:
 1 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTkxNCwiZXhwIjoxNzQ2MzczOTE0fQ.0LVQi8f-2tEFBKElFRAiJDN1nNKVwum7fS7ZRK7JHcU
 1 > Host: conduit-api.bondaracademy.com
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
 1 > Accept-Encoding: gzip,deflate
 
 
-10:39:20.949 [main] DEBUG com.intuit.karate - response time in milliseconds: 521
+10:51:55.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 463
 1 < 200
 1 < x-powered-by: Express
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"1042-JzACfUj44I07Se811ITmbqC8D0k"
-1 < X-Cloud-Trace-Context: 57074b9187a6d7a155635b2b81adec07
-1 < Date: Wed, 05 Mar 2025 15:39:20 GMT
+1 < etag: W/"108c-wjOciQkeyz2nYqr6vjbRjRURORA"
+1 < X-Cloud-Trace-Context: 9bcc5eb98e7343e90f1761499ebc03f4
+1 < Date: Wed, 05 Mar 2025 15:51:55 GMT
 1 < Server: Google Frontend
-1 < Content-Length: 4162
-{"articles":[{"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[],"createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Chiswyck-21337","title":"Chiswyck","description":"Tyria","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","tagList":[],"createdAt":"2025-03-05T15:36:59.190Z","updatedAt":"2025-03-05T15:36:59.190Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Roelle-21337","title":"Roelle","description":"Astapor","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2025-03-05T15:35:44.491Z","updatedAt":"2025-03-05T15:35:44.491Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Walder-Frey-21337","title":"Walder Frey","description":"Asshai","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:30:52.899Z","updatedAt":"2025-03-05T15:30:52.899Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Wenda-21337","title":"Wenda","description":"Ar Noy","body":"The North remembers.","tagList":[],"createdAt":"2025-03-04T15:50:52.372Z","updatedAt":"2025-03-04T15:50:52.372Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Beqqo-21337","title":"Beqqo","description":"Ar Noy","body":"Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.","tagList":[],"createdAt":"2025-03-04T15:50:18.543Z","updatedAt":"2025-03-04T15:50:18.543Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Deana-Hardyng-21337","title":"Deana Hardyng","description":"Bhorash","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.051Z","updatedAt":"2025-03-04T15:49:29.051Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Galyeon-of-Cuy-21337","title":"Galyeon of Cuy","description":"Volantis","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.025Z","updatedAt":"2025-03-04T15:49:29.025Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Taena-of-Myr-21337","title":"Taena of Myr","description":"King's Landing","body":"When the snows fall and the white winds blow, the lone wolf dies but the pack survives.","tagList":[],"createdAt":"2025-03-04T15:45:51.804Z","updatedAt":"2025-03-04T15:45:51.804Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Lennocks-21337","title":"Lennocks","description":"Myr","body":"Hodor? Hodor.","tagList":[],"createdAt":"2025-03-04T15:45:51.802Z","updatedAt":"2025-03-04T15:45:51.802Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":61}
-
-10:39:20.958 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles/Jon-Redfort-21337/favorite
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 2
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-1 > Accept-Encoding: gzip,deflate
-{}
-
-10:39:21.648 [main] DEBUG com.intuit.karate - response time in milliseconds: 690
-1 < 200
-1 < x-powered-by: Express
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"2b2-7cV4i7KqOQVw45yD0GBTNv8kqiw"
-1 < X-Cloud-Trace-Context: b387a0e3af6a0f3979021a2be851c54a
-1 < Date: Wed, 05 Mar 2025 15:39:21 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 690
-{"article":{"id":161688,"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","authorId":21337,"tagList":[],"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false},"favoritedBy":[{"id":21337,"email":"cloaiza@test.com","username":"cloaiza","password":"$2a$10$UyPDrg1lMUu88jyGcMumuuVqB9i1pfyK7TGHUkn.ZLmkGb4OqyaDW","image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","bio":null,"demo":false}],"favorited":true,"favoritesCount":1}}
-
-10:39:21.652 [main] DEBUG com.intuit.karate - request:
-2 > GET https://conduit-api.bondaracademy.com/api/articles?offset=0&limit=10
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyMTMzN30sImlhdCI6MTc0MTE4OTE1NywiZXhwIjoxNzQ2MzczMTU3fQ.7tWgI7WkO1yrficnEeAWopAzr13hxNj0lE3jRvvL18k
-2 > Host: conduit-api.bondaracademy.com
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-2 > Accept-Encoding: gzip,deflate
-
-
-10:39:22.267 [main] DEBUG com.intuit.karate - response time in milliseconds: 615
-2 < 200
-2 < x-powered-by: Express
-2 < vary: Origin
-2 < content-type: application/json; charset=utf-8
-2 < etag: W/"1041-Zew2lQC9VKSGU/V1POd0YTdrHjU"
-2 < X-Cloud-Trace-Context: 5b17fcbee39cef710b95835e86a251c7
-2 < Date: Wed, 05 Mar 2025 15:39:22 GMT
-2 < Server: Google Frontend
-2 < Content-Length: 4161
-{"articles":[{"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[],"createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Chiswyck-21337","title":"Chiswyck","description":"Tyria","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","tagList":[],"createdAt":"2025-03-05T15:36:59.190Z","updatedAt":"2025-03-05T15:36:59.190Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Roelle-21337","title":"Roelle","description":"Astapor","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2025-03-05T15:35:44.491Z","updatedAt":"2025-03-05T15:35:44.491Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Walder-Frey-21337","title":"Walder Frey","description":"Asshai","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:30:52.899Z","updatedAt":"2025-03-05T15:30:52.899Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Wenda-21337","title":"Wenda","description":"Ar Noy","body":"The North remembers.","tagList":[],"createdAt":"2025-03-04T15:50:52.372Z","updatedAt":"2025-03-04T15:50:52.372Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Beqqo-21337","title":"Beqqo","description":"Ar Noy","body":"Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.","tagList":[],"createdAt":"2025-03-04T15:50:18.543Z","updatedAt":"2025-03-04T15:50:18.543Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Deana-Hardyng-21337","title":"Deana Hardyng","description":"Bhorash","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.051Z","updatedAt":"2025-03-04T15:49:29.051Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Galyeon-of-Cuy-21337","title":"Galyeon of Cuy","description":"Volantis","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.025Z","updatedAt":"2025-03-04T15:49:29.025Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Taena-of-Myr-21337","title":"Taena of Myr","description":"King's Landing","body":"When the snows fall and the white winds blow, the lone wolf dies but the pack survives.","tagList":[],"createdAt":"2025-03-04T15:45:51.804Z","updatedAt":"2025-03-04T15:45:51.804Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Lennocks-21337","title":"Lennocks","description":"Myr","body":"Hodor? Hodor.","tagList":[],"createdAt":"2025-03-04T15:45:51.802Z","updatedAt":"2025-03-04T15:45:51.802Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":61}
+1 < Content-Length: 4236
+{"articles":[{"slug":"test12612-21337","title":"test12612","description":"test","body":"test","tagList":["Test"],"createdAt":"2025-03-05T15:48:31.956Z","updatedAt":"2025-03-05T15:48:31.956Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Wylla-21337","title":"Wylla","description":"Lorath","body":"And so he spoke, and so he spoke, that Lord of Castamere, but now the rains weep o'er his hall, with no one there to hear. Yes, now the rains weep o'er his hall, and not a soul to hear.","tagList":[],"createdAt":"2025-03-05T15:44:00.569Z","updatedAt":"2025-03-05T15:44:00.569Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jon-Redfort-21337","title":"Jon Redfort","description":"Vaes Dothrak","body":"When you play a game of thrones you win or you die.","tagList":[],"createdAt":"2025-03-05T15:39:18.014Z","updatedAt":"2025-03-05T15:39:18.014Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Chiswyck-21337","title":"Chiswyck","description":"Tyria","body":"Knowledge could be more valuable than gold, more deadly than a dagger.","tagList":[],"createdAt":"2025-03-05T15:36:59.190Z","updatedAt":"2025-03-05T15:36:59.190Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Roelle-21337","title":"Roelle","description":"Astapor","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2025-03-05T15:35:44.491Z","updatedAt":"2025-03-05T15:35:44.491Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Walder-Frey-21337","title":"Walder Frey","description":"Asshai","body":"Fear cuts deeper than swords.","tagList":[],"createdAt":"2025-03-05T15:30:52.899Z","updatedAt":"2025-03-05T15:30:52.899Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Wenda-21337","title":"Wenda","description":"Ar Noy","body":"The North remembers.","tagList":[],"createdAt":"2025-03-04T15:50:52.372Z","updatedAt":"2025-03-04T15:50:52.372Z","favorited":true,"favoritesCount":1,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Beqqo-21337","title":"Beqqo","description":"Ar Noy","body":"Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.","tagList":[],"createdAt":"2025-03-04T15:50:18.543Z","updatedAt":"2025-03-04T15:50:18.543Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Deana-Hardyng-21337","title":"Deana Hardyng","description":"Bhorash","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.051Z","updatedAt":"2025-03-04T15:49:29.051Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Galyeon-of-Cuy-21337","title":"Galyeon of Cuy","description":"Volantis","body":"Power is a curious thing. Who lives, Who dies. Power resides where men believe it resides. It is a trick, A shadow on the wall.","tagList":[],"createdAt":"2025-03-04T15:49:29.025Z","updatedAt":"2025-03-04T15:49:29.025Z","favorited":false,"favoritesCount":0,"author":{"username":"cloaiza","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":63}
 
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/HomePage.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 1,8347
+scenarios:  1 | passed:  1 | failed:  0 | time: 0,4837
 ---------------------------------------------------------
 
-10:39:22.322 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/HomePage.feature
-10:39:22.326 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:39:22.330 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/Dummy.feature')
-10:39:22.417 [main] INFO  com.intuit.karate - [print] palmer.wiegand 
-10:39:22.419 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/Dummy.feature')
-10:39:22.421 [main] INFO  com.intuit.karate - [print] artie26@test.com 
-10:39:22.421 [main] INFO  com.intuit.karate - [print] This is the first scenario 
-10:39:22.445 [main] INFO  com.intuit.karate - [print] tracey.jones 
-10:39:22.451 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:39:22.454 [main] INFO  com.intuit.karate - [print] artie26@test.com 
-10:39:22.455 [main] INFO  com.intuit.karate - [print] This is the second scenario 
-10:39:22.489 [main] INFO  com.intuit.karate - [print] deshawn.morissette 
-10:39:22.489 [main] INFO  com.intuit.karate - After Feature Text 
+10:51:55.949 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:conduitApp/feature/HomePage.feature
+10:51:55.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:51:55.950 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/Dummy.feature')
+10:51:56.130 [main] INFO  com.intuit.karate - [print] harold.ritchie 
+10:51:56.130 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/Dummy.feature')
+10:51:56.136 [main] INFO  com.intuit.karate - [print] randell93@test.com 
+10:51:56.136 [main] INFO  com.intuit.karate - [print] This is the first scenario 
+10:51:56.180 [main] INFO  com.intuit.karate - [print] charles.bins 
+10:51:56.187 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:51:56.190 [main] INFO  com.intuit.karate - [print] randell93@test.com 
+10:51:56.190 [main] INFO  com.intuit.karate - [print] This is the second scenario 
+10:51:56.215 [main] INFO  com.intuit.karate - [print] milford.bins 
+10:51:56.219 [main] INFO  com.intuit.karate - After Feature Text 
 ---------------------------------------------------------
 feature: classpath:conduitApp/feature/Hooks.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 0,0959
+scenarios:  2 | passed:  2 | failed:  0 | time: 0,1827
 ---------------------------------------------------------
 
-10:39:22.570 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (0 remaining) classpath:conduitApp/feature/Hooks.feature
-10:39:22.575 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+10:51:56.328 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (0 remaining) classpath:conduitApp/feature/Hooks.feature
+10:51:56.331 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
 Karate version: 1.4.1
 ======================================================
-elapsed:   7,20 | threads:    1 | thread time: 4,22 
-features:     3 | skipped:    2 | efficiency: 0,59
-scenarios:    5 | passed:     5 | failed: 0
+elapsed:   3,28 | threads:    1 | thread time: 0,67 
+features:     2 | skipped:    3 | efficiency: 0,20
+scenarios:    3 | passed:     3 | failed: 0
 ======================================================
 
 HTML report: (paste into browser to view) | Karate version: 1.4.1
 file:///C:/Users/loaiz/OneDrive/Documentos/Automation/Karate/KarateDemo1/target/karate-reports/karate-summary.html
 ===================================================================
 
-10:39:22.879 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\karate-reports\conduitApp.feature.Articles.json' contains 1 feature(s)
-10:39:22.882 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\karate-reports\conduitApp.feature.HomePage.json' contains 1 feature(s)
-10:39:22.884 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\karate-reports\conduitApp.feature.Hooks.json' contains 1 feature(s)
+10:51:56.596 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\karate-reports\conduitApp.feature.HomePage.json' contains 1 feature(s)
+10:51:56.604 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\loaiz\OneDrive\Documentos\Automation\Karate\KarateDemo1\target\karate-reports\conduitApp.feature.Hooks.json' contains 1 feature(s)
 ]]></system-out>
   </testcase>
 </testsuite>

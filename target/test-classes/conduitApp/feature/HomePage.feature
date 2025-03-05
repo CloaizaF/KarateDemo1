@@ -39,7 +39,6 @@ Feature: Tests for the home page
             }
         """
 
-    @debug
     Scenario: Conditional Logic
         Given params { limit: 10, offset: 0 }
         Given path 'articles'
@@ -57,3 +56,25 @@ Feature: Tests for the home page
         When method Get
         Then status 200
         And match response.articles[0].favoritesCount == result
+
+    @ignore
+    Scenario: Retry call
+        * configure retry = { count: 10, interval: 5000 }
+        
+        Given params { limit: 10, offset: 0 }
+        Given path 'articles'
+
+        # The configuration of the rety should be placed before the HTTP Method
+        And retry until response.articles[0].favoritesCount == 1
+        When method Get
+        Then status 200
+
+    @ignore
+    Scenario: Sleep call
+       * def sleep = function(pause){ java.lang.Thread.sleep(pause) }
+        
+        Given params { limit: 10, offset: 0 }
+        Given path 'articles'
+        When method Get
+        * eval sleep(5000)
+        Then status 200

@@ -1,4 +1,3 @@
-@debug 
 Feature: Tests for the home page
 
     Background: Define URL
@@ -8,6 +7,7 @@ Feature: Tests for the home page
         * set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title
         * set articleRequestBody.article.description = dataGenerator.getRandomArticleValues().description
         * set articleRequestBody.article.body = dataGenerator.getRandomArticleValues().body
+    
     
     Scenario: Create a new article
         Given path 'articles'
