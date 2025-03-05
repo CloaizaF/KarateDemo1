@@ -10,7 +10,7 @@ Feature: Homework
         When method Get
         Then status 200
         * def slug = response.articles[0].slug
-        * def favoritesCountIntial = response.articles[0].favoritesCount
+        * def favoritesInitialCount = response.articles[0].favoritesCount
 
         * def isValidTime = read('classpath:helpers/timeValidator.js')
 
@@ -53,3 +53,19 @@ Feature: Homework
                 }
             }
         """
+        
+        And assert response.article.favoritesCount == favoritesInitialCount + 1
+
+        Given params { favorited: "#(userEmail)", limit: 10, offset: 0 }
+        When method Get
+        Then status 200
+        And match response == 
+        """
+            {
+                "articles": "#array",
+                "articlesCount": "#number"
+            }
+        """
+        And match response.articles[*].slug contains #(slug)
+
+
